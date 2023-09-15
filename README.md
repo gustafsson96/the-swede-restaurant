@@ -1,11 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome,
-
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
 ## Codeanywhere Reminders
 
 To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
@@ -36,4 +28,44 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 
 ---
 
-Happy coding!
+Content Section goes here.
+
+# User Experience
+
+# Features
+
+Present all features with screenshots.
+Add features left to implement if necessary.
+
+# Technologies
+
+Languages, Packages, Frameworks, Libraries, Programs etc.
+
+# Testing
+
+Link to separate TESTING.md file. Brief information about what is in testing.md file.
+
+# Bugs
+
+Present bugs, fixed and unfixed.
+
+# Deployment
+
+Create the repository.
+Create the Django.
+Create Heroku app.
+(Environment Variables, settings.py?)
+Deployment Heroku.
+Final deployment after project is done.
+(Remember to set debug to FALSE and deploy manually).
+
+Section for forking?
+
+# Credits
+
+References to reused and customized code.
+
+Important links and sources that have contributed to my understanding of the concepts required to create this project.
+
+Content and media (pictures etc).
+
