@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-gustafsson96-the-swede-r-zs80fcj7mk.us2.codeanyapp.com', 'the-swede-restaurant.herokuapp.com', 'localhost']
+    '8000-gustafsson96-the-swede-r-zs80fcj7mk.us2.codeanyapp.com', 'the-swede-restaurant-883dacef11e8.herokuapp.com', 'localhost']
 
 
 # Application definition
