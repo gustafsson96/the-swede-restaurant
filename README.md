@@ -64,11 +64,12 @@ Content Section goes here.
 |  | #17 | Logout: As a registered user I can log out from my account so that I can protect my personal information.   |
 |  | #18 | Forgot Password: As a registered user I can reset my password so that I can keep my account save and access my information even if I forget my login information.   |
 |  | #19 | Delete Account: As a registered user I can delete my account so that I have the choice to remove my information from the site.   |
+|  | #20 | Admin Panel: As a restaurant owner/site manager I can view reservations from an admin panel so that I can plan my business.   |
 | **Reservations**  
-|  | #20 | Make Reservation: As a registered user I can make a reservation at the restaurant through a form so that I can schedule a date and time to visit  |
-|  | #21 | View Reservations: As a registered user I can view my reservation(s) so that I can check the details.   |
-|  | #22 | Manage Reservation: As a registered user I can manage my reservation after its been saved in my account so that I can keep the restaurant updated if something changes.   |
-|  | #23 | Cancel Reservation: As a registered user I can cancel my reservation so that the date and time get available for other customers  |
+|  | #21 | Make Reservation: As a registered user I can make a reservation at the restaurant through a form so that I can schedule a date and time to visit  |
+|  | #22 | View Reservations: As a registered user I can view my reservation(s) so that I can check the details.   |
+|  | #23 | Manage Reservation: As a registered user I can manage my reservation after its been saved in my account so that I can keep the restaurant updated if something changes.   |
+|  | #24 | Cancel Reservation: As a registered user I can cancel my reservation so that the date and time get available for other customers  |
 
 
 ### Wireframes
