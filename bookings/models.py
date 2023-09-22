@@ -30,8 +30,8 @@ class Booking(models.Model):
         User, on_delete=models.CASCADE, related_name="reservation")
     name = models.CharField(max_length=50)
     date = models.DateField()
-    time = models.IntegerField(
-        choices=TIME_CHOICES, default="4:00 pm - 6:00 pm")
+    time = models.CharField(
+        max_length=20, choices=TIME_CHOICES, default="4:00 pm - 6:00 pm")
     number_of_guests = models.PositiveIntegerField(default=2)
     message = models.CharField(max_length=255, blank=True)
 
