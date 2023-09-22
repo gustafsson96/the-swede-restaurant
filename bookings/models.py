@@ -24,14 +24,18 @@ TIME_CHOICES = (
 )
 
 
-## class Booking(models.Model):
-##    """create booking model"""
-##    user_customer = models.ForeignKey(User, on_delete=models.CASCADE)
-##    name = models.CharField(max_length=50)
-##    date = models.DateField()
-##    time = models.IntegerField(choices=TIME_CHOICES, default=9)
-##    number_of_guests = models.PositiveIntegerField(default=2)
-##    message = models.CharField(max_length=300, blank=True)
+class Booking(models.Model):
+    """create booking model"""
+    customer_user = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="reservation")
+    name = models.CharField(max_length=50)
+    date = models.DateField()
+    time = models.IntegerField(choices=TIME_CHOICES, default=1)
+    number_of_guests = models.PositiveIntegerField(default=2)
+    message = models.CharField(max_length=255, blank=True)
 
-##    class Meta:
-##        ordering = []
+    class Meta:
+        ordering = ['date', 'time']
+
+    def __str__(self):
+        return f"{self.name} | date: {self.date} | time: {self.time}"
