@@ -1,8 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-# Create your models here.
-
 TIME_CHOICES = (
     ("4:00 pm - 6:00 pm", "4:00 pm - 6:00 pm"),
     ("4:15 pm - 6:15 pm", "4:15 pm - 6:15 pm"),
