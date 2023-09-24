@@ -7,5 +7,7 @@ def home(request):
     return render(request, 'home.html', {})
 
 
-def reservations(request):
-    return render(request, 'reservations.html', {})
+def all_reservations(request):
+    reservations = Booking.objects.all()
+    return render(request, 'reservations.html', 
+    {'reservations': reservations})
