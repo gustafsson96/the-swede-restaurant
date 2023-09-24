@@ -3,15 +3,7 @@
 {% block content %}
 
 <h1>Reservations!</h1>
-{% for booking in reservations %}
-    {{ name }}
-    {{ date }}
-    {{ time }}
-    {{ number_of_guests }}
-    {{ message }}
 
-{% endfor %}
-
-<!-- {{ reservations }} -->
+{{ booking.user }}
 
 {% endblock %}
