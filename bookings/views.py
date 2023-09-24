@@ -7,7 +7,11 @@ def home(request):
     return render(request, 'home.html', {})
 
 
-def all_reservations(request):
-    reservations = Booking.objects.all()
-    return render(request, 'reservations.html', 
-    {'reservations': reservations})
+class ReservationsList(generic.ListView):
+    model = Booking
+    queryset = Booking.objects.all()
+    template_name = "templates/reservations.html"
+
+## def all_reservations(request):
+##     reservations = Booking.objects.all()
+##     return render(request, 'reservations.html', {'reservations': reservations})
