@@ -39,7 +39,7 @@
                     <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'reservations_list' %}">
+                    <a class="nav-link" href="{% url 'reservations' %}">
                         Reservations</a>
                 </li>
                 {% else %}
@@ -59,11 +59,6 @@
 </nav>
 
 <main class="flex-shrink-0 main-bg">
-
-<!--    <nav>
-      <a href="{% url 'reservations_list' %}">Reservations</a>
-      <p>This is the navbar</p>
-    </nav> -->
 
     {% block content %}
     <!--  Content Here -->

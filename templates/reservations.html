@@ -4,6 +4,16 @@
 
 <h1>Reservations!</h1>
 
-{{ booking.user }}
+<p> Reservations table: </p>
+
+<table>
+    {% for item in information %}
+        <tr>
+            <td>{{ item.name }}</td>
+            <td>{{ item.date }}</td>
+            <td>{{ item.time }}</td>
+        </tr>
+    {% endfor %}
+</table>
 
 {% endblock %}

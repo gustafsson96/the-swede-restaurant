@@ -37,4 +37,4 @@ class Booking(models.Model):
         ordering = ['date', 'time']
 
     def __str__(self):
-        return f"{self.name} | date: {self.date} | time: {self.time}"
+        return f"{self.name} Date: {self.date} Time: {self.time}"

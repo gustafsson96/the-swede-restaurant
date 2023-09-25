@@ -7,7 +7,9 @@ def home(request):
     return render(request, 'home.html', {})
 
 
-class ReservationsList(generic.ListView):
-    model = Booking
-    queryset = Booking.objects.all()
-    template_name = "reservations.html"
+def get_booking_information(request):
+    information = Booking.objects.all()
+    information_items = {
+        'information': information
+    }
+    return render(request, 'reservations.html', information_items)
