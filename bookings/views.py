@@ -1,6 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views import generic
 from .models import Booking
+from .forms import ReservationForm
 
 
 def home(request):
@@ -16,4 +17,8 @@ def get_booking_information(request):
 
 
 def add_reservation(request):
-    return render(request, 'add_reservations.html')
+    form = ReservationForm()
+    context = {
+        'form': form
+    }
+    return render(request, 'add_reservations.html', context)
