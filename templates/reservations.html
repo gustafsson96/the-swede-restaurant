@@ -1,19 +1,23 @@
-{% extends 'base.html' %}
-
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 <h1>Reservations!</h1>
 
-<p> Reservations table: </p>
+<p>Reservations:</p>
 
 <table>
-    {% for item in information %}
-        <tr>
-            <td>{{ item.name }}</td>
-            <td>{{ item.date }}</td>
-            <td>{{ item.time }}</td>
-        </tr>
-    {% endfor %}
+  {% for item in information %}
+  <tr>
+    <td>{{ item.name }}</td>
+    <td>{{ item.date }}</td>
+    <td>{{ item.time }}</td>
+  </tr>
+  {% empty %}
+  <tr>
+    <td>There are no reservations to show.</td>
+  </tr>
+  {% endfor %}
 </table>
+
+<a href="add">Add Reservation</a>
 
 {% endblock %}

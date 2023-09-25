@@ -13,3 +13,7 @@ def get_booking_information(request):
         'information': information
     }
     return render(request, 'reservations.html', information_items)
+
+
+def add_reservation(request):
+    return render(request, 'add_reservations.html')
