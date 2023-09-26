@@ -9,7 +9,7 @@ class ReservationForm(forms.ModelForm):
         widgets = {
             'date': forms.DateInput(
                 attrs={
-                    'type': 'date', 'placeholder': 'yyyy-mm-dd (DOB)', 'class': 'form-control'}
+                    'type': 'date', 'placeholder': 'yyyy-mm-dd'}
             )}
         labels = {
             'name': ('Name '),
@@ -18,5 +18,6 @@ class ReservationForm(forms.ModelForm):
             'number_of_guests': ('Number of Guests '),
             'message': ('Special Requests or Allergy Information? Add here!'),
         }
+
 
 form = ReservationForm()

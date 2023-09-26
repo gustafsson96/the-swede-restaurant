@@ -1,5 +1,4 @@
 from django.shortcuts import render, redirect
-from django.views import generic
 from .models import Booking
 from .forms import ReservationForm
 
@@ -17,6 +16,11 @@ def get_booking_information(request):
 
 
 def add_reservation(request):
+    if request.method == 'POST':
+        form = ReservationForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect('reservations')
     form = ReservationForm()
     context = {
         'form': form
