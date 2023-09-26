@@ -19,6 +19,7 @@ def add_reservation(request):
     if request.method == 'POST':
         form = ReservationForm(request.POST)
         if form.is_valid():
+            form.instance.user = request.user
             form.save()
             return redirect('reservations')
     form = ReservationForm()
