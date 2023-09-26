@@ -42,3 +42,9 @@ def edit_reservation(request, item_id):
         'form': form
     }
     return render(request, 'edit_reservation.html', context)
+
+
+def delete_reservation(request, item_id):
+    reservation = get_object_or_404(Booking, id=item_id)
+    reservation.delete()
+    return redirect('reservations')
