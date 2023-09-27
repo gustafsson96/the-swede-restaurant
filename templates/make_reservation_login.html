@@ -1,31 +1,13 @@
-{% extends "base.html" %}
+{% extends 'base.html' %} {% block content %}
 
-{% load i18n %}
-{% load account socialaccount %}
+<h1>Make a Reservation!</h1>
+<p>Not already a customer? Please create an account or sign in to make a reservation!</p>
 
-{% block head_title %}{% trans "Sign In" %}{% endblock %}
-
-{% block content %}
-
-<div class="m-3 border border-warning flex items-center justify-center px-4 py-12 my-4 sm:px-6 lg:px-8">
-    <div class="p-3 w-full max-w-md space-y-8">
-
-<h1>{% trans "Sign In" %}</h1>
-
-<p>{% blocktrans %}If you have not created an account yet, then please
-<a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
-
-<form class="login" method="POST" action="{% url 'account_login' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
-</form>
-
-</div>
-</div>
-
-
+<ul>
+<li><a class="nav-link" href="{% url 'account_signup' %}">Register Here</a></li>
+<li><a class="nav-link" href="{% url 'account_login' %}">Log In Here</a></li>
+</ul>
 {% endblock %}
+
+
+

@@ -11,6 +11,10 @@ def menu(request):
     return render(request, 'menu.html', {})
 
 
+def reservation_login(request):
+    return render(request, 'make_reservation_login.html', {})
+
+
 def get_booking_information(request):
     information = Booking.objects.all()
     information_items = {
