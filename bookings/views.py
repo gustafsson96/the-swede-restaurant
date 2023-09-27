@@ -7,6 +7,10 @@ def home(request):
     return render(request, 'home.html', {})
 
 
+def menu(request):
+    return render(request, 'menu.html', {})
+
+
 def get_booking_information(request):
     information = Booking.objects.all()
     information_items = {
@@ -48,3 +52,7 @@ def delete_reservation(request, item_id):
     reservation = get_object_or_404(Booking, id=item_id)
     reservation.delete()
     return redirect('reservations')
+
+
+def contact(request):
+    return render(request, 'contact.html', {})
