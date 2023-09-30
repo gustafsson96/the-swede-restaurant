@@ -3,12 +3,21 @@ body,html {
 }
 
 :root {
-    /** Color scheme **/
+    /** color scheme **/
     --darker-blue: #173854;
     --lighter-blue: #3163A0; 
     --darker-yellow: #E9E8A0;
     --lighter-yellow: #F0F0CC;
 }
+
+/* navbar css */
+
+#navbar {
+    background-color: white;
+    border-bottom: var(--darker-blue) solid 1px;
+}
+
+/* home page css */
 
 .hero-container {
     position: relative;
@@ -47,9 +56,9 @@ body,html {
 }
 
 .home-btn {
-    font-family: 'Roboto@400', sans-serif, Courier, monospace;
+    font-family: 'Roboto', sans-serif, Courier, monospace;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;
     padding: 12px 28px;
@@ -64,6 +73,39 @@ body,html {
     background-color: var(--darker-blue);
     color: var(--darker-yellow);
 }
+
+/* menu page css */
+
+.menu-heading {
+    font-family: 'Lora', sans-serif, Courier, monospace;
+    font-weight: 700;
+    color: var(--darker-blue);
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: var(--darker-blue) solid 2px;
+}
+
+#menu-table-container {
+    border: var(--lighter-blue) 2px solid;
+    border-style: dotted;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.menu-title {
+    font-family: 'Lora', sans-serif, Courier, monospace;
+    font-size: x-large;
+}
+
+.menu-price {
+    font-size: larger;
+    text-align: right;
+}
+
+/* footer css */
 
 .footer {
     background-color: var(--lighter-blue);

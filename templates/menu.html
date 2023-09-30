@@ -1,5 +1,138 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
 
-<h1>Menu will be displayed here</h1>
+{% block content %}
+
+<div class="menu-heading">
+    <h1>Menu</h1>
+</div>
+
+<!-- customized bootstrap tables -->
+<div id="menu-table-container">
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <th scope="col" class="menu-title">Starters</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Toast Skagen <i>(Shrimp Sandwich)</i></th>
+            <td class="menu-price">€8</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Sill <i>(Pickled Herring)</i></th>
+            <td class="menu-price">€8</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 2 bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Raggmunk & Fläsk <i>(Potato Pancake & Pork)</i></th>
+            <td class="menu-price">€8</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 3 bla bla bla.</td>
+        </tr>
+    </tbody>
+</table>
+
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <th scope="col" class="menu-title">Mains</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Köttbullar & Potatismos <i>(Meatballs & Mashed Potatoes)</i> </th>
+            <td class="menu-price">€12</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Ärtsoppa & Pannkakor <i>(Pea Soup & Pancakes)</i></th>
+            <td class="menu-price">€12</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 2 bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Västerbottenspaj <i>(Swedish Cheese Pie)</i></th>
+            <td class="menu-price">€12</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 3 bla bla bla.</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <th scope="col" class="menu-title">Dessert</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Kanelbulle <i>(Cinnamon Bun)</i></th>
+            <td class="menu-price">€6</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Prinsesstårta <i>(Princess Cake)</i></th>
+            <td class="menu-price">€6</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 2 bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Semla <i>(Swedish Eclair)</i></th>
+            <td class="menu-price">€6</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 3 bla bla bla.</td>
+        </tr>
+    </tbody>
+</table>
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <th scope="col" class="menu-title">Drinks</th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th scope="row">Coffee</th>
+            <td class="menu-price">€5</td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Alcoholic Drinks</th>
+            <td class="menu-price"></td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 2 bla bla bla.</td>
+        </tr>
+        <tr>
+            <th scope="row">Non Alcoholic Drinks</th>
+            <td class="menu-price"></td>
+        </tr>
+        <tr>
+            <td>Here is a description of the menu item 3 bla bla bla.</td>
+        </tr>
+    </tbody>
+</table>
+</div>
 
 {% endblock %}

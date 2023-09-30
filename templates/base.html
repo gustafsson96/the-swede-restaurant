@@ -22,7 +22,7 @@
 
   <body>
     <!-- Bootstrap navbar copied from CI walkthrough templates. Customized for this project. -->
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light border-bottom border-2 border-secondary">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="navbar">
     <div class="container-fluid">
         <a class="navbar-brand" href="{% url 'home' %}">The Swede Restaurant</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -78,7 +78,7 @@
     {% endblock content %}
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 fixed-bottom">
+    <footer class="footer mt-auto py-3">
         <p class="m-0 text-center"><i class="fab fa-facebook-square ms-3"></i>
             <i class="fab fa-instagram-square ms-3"></i>
     </footer>
