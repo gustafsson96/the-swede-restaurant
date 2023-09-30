@@ -1,9 +1,12 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
 
-<div class="hero-image">
-    <div class="hero-text">
-        <h1>The Swede Restaurant</h1>
-        <p>We love Swedish Cuisine! Welcome in.</p>
+{% block content %}
+
+<div class="hero-container">
+    <img class ="hero-image" src="https://res.cloudinary.com/dlbny6lhn/image/upload/v1696083008/static/images/hero-image_dldrtz.png">
+        <div class="hero-text">
+            <h1>The Swede Restaurant</h1>
+            <p>We love Swedish Cuisine! Welcome in.</p>
             {% if user.is_authenticated %}
             <a class="home-btn" href="{% url 'add' %}">
                 Make Reservation

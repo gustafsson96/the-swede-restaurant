@@ -1,4 +1,4 @@
-body {
+body,html {
     height: 100%;
 }
 
@@ -10,9 +10,28 @@ body {
     --lighter-yellow: #F0F0CC;
 }
 
-.footer {
-    background-color: var(--lighter-blue);
+.hero-container {
+    position: relative;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8;
+}
+
+.hero-text {
     color: var(--darker-yellow);
+    background-color: var(--lighter-blue);
+    opacity: 0.85;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    font-size: 18px;
 }
 
 .home-btn {
@@ -29,5 +48,10 @@ body {
 
 .home-btn:hover {
     background-color: var(--darker-blue);
+    color: var(--darker-yellow);
+}
+
+.footer {
+    background-color: var(--lighter-blue);
     color: var(--darker-yellow);
 }
