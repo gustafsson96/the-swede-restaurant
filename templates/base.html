@@ -32,12 +32,16 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarText">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="{% url 'home' %}">Home</a>
+                    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'menu' %}">Menu</a>
                 </li>
                 {% if user.is_authenticated %}
+                <li class="nav-item">
+                     <a class="nav-link" href="{% url 'add' %}">
+                        Make Reservation</a>
+                    </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'reservations' %}">
                         My Reservations</a>
@@ -74,7 +78,7 @@
     {% endblock content %}
 
     <!-- Footer -->
-    <footer class="footer mt-auto py-3 bg-info fixed-bottom">
+    <footer class="footer mt-auto py-3 fixed-bottom">
         <p class="m-0 text-center">Follow us: <i class="fab fa-facebook-square ms-3"></i>
             <i class="fab fa-instagram-square ms-3"></i>
         <p class="m-0 text-center"> Contact Information </p>

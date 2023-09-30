@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+}
+
+:root {
+    /** Color scheme **/
+    --darker-blue: #173854;
+    --lighter-blue: #3163A0; 
+    --darker-yellow: #E9E8A0;
+    --lighter-yellow: #F0F0CC;
+}
+
+.footer {
+    background-color: var(--lighter-blue);
+    color: var(--darker-yellow);
+}
+
+.home-btn {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 12px 28px;
+    background-color: var(--darker-yellow);
+    color: var(--darker-blue);
+    border: 2px solid var(--darker-yellow);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.home-btn:hover {
+    background-color: var(--darker-blue);
+    color: var(--darker-yellow);
+}
