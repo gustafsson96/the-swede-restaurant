@@ -16,7 +16,7 @@ def reservation_login(request):
 
 
 def get_booking_information(request):
-    information = Booking.objects.all()
+    information = Booking.objects.filter(user=request.user)
     information_items = {
         'information': information
     }
@@ -60,3 +60,4 @@ def delete_reservation(request, item_id):
 
 def contact(request):
     return render(request, 'contact.html', {})
+    
