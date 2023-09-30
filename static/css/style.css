@@ -42,7 +42,8 @@ body,html {
 
 .hero-text p {
     font-family: 'Roboto', sans-serif, Courier, monospace;
-    padding-bottom: 0.5rem;
+    font-size: 20px;
+    padding-bottom: 0.8rem;
 }
 
 .home-btn {
