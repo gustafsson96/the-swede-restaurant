@@ -246,7 +246,7 @@
     color: var(--darker-yellow);
 }
 
-/* login.html css */
+/* allauth templates css */
 
 #sign-up-link {
     text-decoration: none;
@@ -270,6 +270,30 @@
 #login-btn:hover {
     background-color: var(--darker-blue);
     color: var(--darker-yellow);
+}
+
+#signup-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 0.75rem 1.75rem;
+    background-color: var(--darker-yellow);
+    color: var(--darker-blue);
+    border: 2px solid var(--darker-blue);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+#signup-btn:hover {
+    background-color: var(--darker-blue);
+    color: var(--darker-yellow);
+}
+
+#login-link {
+    text-decoration: none;
+    font-weight: bold;
 }
 
 
