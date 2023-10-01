@@ -85,7 +85,6 @@
 
 .menu-heading {
     font-family: 'Lora', sans-serif, Courier, monospace;
-    font-weight: 700;
     color: var(--darker-blue);
     text-transform: uppercase;
     font-size: 55px;
@@ -110,6 +109,61 @@
 .menu-price {
     font-size: larger;
     text-align: right;
+}
+
+/* contact page css */
+
+.contact-heading {
+    font-family: 'Lora', sans-serif, Courier, monospace;
+    color: var(--darker-blue);
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: var(--darker-blue) solid 2px;
+}
+
+#contact-pattern-top {
+    /* background pattern from https: //superdesigner.co/tools/css-backgrounds */
+    border: var(--lighter-blue) solid 2px;
+    background: linear-gradient(-45deg, var(--lighter-blue) 20%, transparent 20% 80%, var(--lighter-blue) 80% 100%), linear-gradient(45deg, var(--lighter-blue) 20%, transparent 20% 80%, var(--lighter-blue) 80% 100%), linear-gradient(-45deg, var(--lighter-yellow) 33%, transparent 33% 66%, var(--lighter-yellow) 66%), linear-gradient(45deg, transparent 33%, var(--darker-yellow) 33% 66%, transparent 66%);
+    background-size: 3em 3em;
+    background-color: var(--lighter-yellow);
+    opacity: 1
+}
+
+#contact-information {
+    font-family: 'Roboto', sans-serif, Courier, monospace;
+    color: var(--darker-blue);
+}
+
+#contact-information h2 {
+    margin-bottom: 1.5rem;
+}
+
+#contact-information h5 {
+    margin-bottom: 1.5rem;
+}
+
+#opening-hours {
+    font-family: 'Roboto', sans-serif, Courier, monospace;
+    color: var(--darker-blue);
+    text-align: center;
+}
+
+#opening-hours h2 {
+    margin-bottom: 1.5rem;
+}
+
+#contact-pattern-bottom {
+    /* background pattern from https: //superdesigner.co/tools/css-backgrounds */
+    border: var(--lighter-blue) solid 2px;
+    background: linear-gradient(-45deg, var(--lighter-blue) 20%, transparent 20% 80%, var(--lighter-blue) 80% 100%), linear-gradient(45deg, var(--lighter-blue) 20%, transparent 20% 80%, var(--lighter-blue) 80% 100%), linear-gradient(-45deg, var(--lighter-yellow) 33%, transparent 33% 66%, var(--lighter-yellow) 66%), linear-gradient(45deg, transparent 33%, var(--darker-yellow) 33% 66%, transparent 66%);
+    background-size: 3em 3em;
+    background-color: var(--lighter-yellow);
+    opacity: 1;
+    margin-bottom: 2rem;
 }
 
 /* footer css */
