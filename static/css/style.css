@@ -6,7 +6,19 @@
     --lighter-yellow: #F0F0CC;
 }
 
-/* relative page container */
+/* css for all pages */
+.page-heading {
+    font-family: 'Lora', sans-serif, Courier, monospace;
+    color: var(--darker-blue);
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+    border-bottom: var(--darker-blue) solid 2px;
+}
+
+/* relative page container for footer positioning */
 
 #page-container {
     position: relative;
@@ -24,7 +36,7 @@
     border-bottom: var(--darker-blue) solid 1px;
 }
 
-/* home page css */
+/* home.html css */
 
 .hero-container {
     position: relative;
@@ -62,12 +74,11 @@
 }
 
 .home-btn {
-    font-family: 'Roboto', sans-serif, Courier, monospace;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: bolder;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 12px 28px;
+    padding: 0.75rem 1.75rem;
     background-color: var(--darker-yellow);
     color: var(--darker-blue);
     border: 2px solid var(--darker-yellow);
@@ -80,6 +91,8 @@
     color: var(--darker-yellow);
 }
 
+/* home.html css for screens smaller than 769px */
+
 @media screen and (max-width: 769px) {
     .hero-text {
         font-size: 1.1rem;
@@ -89,7 +102,13 @@
         font-size: 2rem;
         padding-bottom: 0.5rem;
     }
+
+    .home-btn {
+        font-size: 0.8rem;
+    }
 }
+
+/* home.html css for screens smaller than 620px */
 
 @media screen and (max-width: 620px) {
     .hero-text {
@@ -111,23 +130,13 @@
             font-size: 1.5rem;
             padding-bottom: 0.5rem;
         }
+
     .home-btn {
             display: none;
         }
 }
 
-/* menu page css */
-
-.menu-heading {
-    font-family: 'Lora', sans-serif, Courier, monospace;
-    color: var(--darker-blue);
-    text-transform: uppercase;
-    font-size: 55px;
-    text-align: center;
-    padding: 1rem;
-    margin: 1rem;
-    border-bottom: var(--darker-blue) solid 2px;
-}
+/* menu.html css */
 
 #menu-table-container {
     font-family: 'Lora', sans-serif, Courier, monospace;
@@ -146,18 +155,7 @@
     text-align: right;
 }
 
-/* contact page css */
-
-.contact-heading {
-    font-family: 'Lora', sans-serif, Courier, monospace;
-    color: var(--darker-blue);
-    text-transform: uppercase;
-    font-size: 55px;
-    text-align: center;
-    padding: 1rem;
-    margin: 1rem;
-    border-bottom: var(--darker-blue) solid 2px;
-}
+/* contact.html css */
 
 #contact-pattern-top {
     /* background pattern from https: //superdesigner.co/tools/css-backgrounds */
@@ -200,6 +198,34 @@
     opacity: 1;
     margin-bottom: 2rem;
 }
+
+/* make_reservation_login.html */
+
+.reservation-login {
+    font-size: 1.5rem;
+    color: var(--darker-blue);
+    text-align: center;
+}
+
+.reservation-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 2rem;
+    padding: 0.75rem 1.75rem;
+    background-color: var(--darker-yellow);
+    color: var(--darker-blue);
+    border: 2px solid var(--darker-blue);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.reservation-btn:hover {
+    background-color: var(--darker-blue);
+    color: var(--darker-yellow);
+}
+
 
 /* footer css */
 

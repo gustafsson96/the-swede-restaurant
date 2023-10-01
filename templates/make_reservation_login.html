@@ -1,12 +1,16 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
 
-<h1>Make a Reservation!</h1>
-<p>Not already a customer? Please create an account or sign in to make a reservation!</p>
+{% block content %}
 
-<ul>
-<li><a class="nav-link" href="{% url 'account_signup' %}">Register Here</a></li>
-<li><a class="nav-link" href="{% url 'account_login' %}">Log In Here</a></li>
-</ul>
+<div class="page-heading">
+    <h1>Make a Reservation</h1>
+</div>
+<div class="reservation-login">
+    <p>Please <strong>create an account</strong> or <strong>sign in</strong> to make a reservation.</p>
+    <a class="reservation-btn" href="{% url 'account_signup' %}">Create Account</a>
+    <a class="reservation-btn" href="{% url 'account_login' %}">Sign In</a>
+</div>
+
 {% endblock %}
 
 

@@ -7,10 +7,10 @@
 
 {% block content %}
 
-<div class="m-3 border border-warning flex items-center justify-center px-4 py-12 my-4 sm:px-6 lg:px-8">
+<div class="m-3 border flex items-center justify-center px-4 py-12 my-4 sm:px-6 lg:px-8">
     <div class="p-3 w-full max-w-md space-y-8">
 
-<h1>{% trans "Sign In" %}</h1>
+<h1 id="page-heading">{% trans "Sign In" %}</h1>
 
 <p>{% blocktrans %}If you have not created an account yet, then please
 <a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
