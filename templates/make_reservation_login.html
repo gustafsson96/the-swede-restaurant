@@ -7,8 +7,10 @@
 </div>
 <div class="reservation-login">
     <p>Please <strong>create an account</strong> or <strong>sign in</strong> to make a reservation.</p>
-    <a class="reservation-btn" href="{% url 'account_signup' %}">Create Account</a>
-    <a class="reservation-btn" href="{% url 'account_login' %}">Sign In</a>
+    <ul>
+    <li><a class="reservation-btn" href="{% url 'account_login' %}">Sign In</a></li>
+    <li><a class="reservation-btn" href="{% url 'account_signup' %}">Create Account</a></li>
+    </ul>
 </div>
 
 {% endblock %}
