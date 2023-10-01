@@ -149,7 +149,7 @@
 #opening-hours {
     font-family: 'Roboto', sans-serif, Courier, monospace;
     color: var(--darker-blue);
-    text-align: center;
+    text-align: left;
 }
 
 #opening-hours h2 {
