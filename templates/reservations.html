@@ -6,7 +6,6 @@
     <div class="row">
         <div class="col-md-6 offset-md-3 p-4 text-center">
             <h1 class="page-heading">My Reservations</h1>
-            <div>
 <table>
   {% for item in information %}
   <tr>
@@ -26,14 +25,13 @@
   </tr>
   {% empty %}
   <tr>
-    <td>There are no reservations to show.</td>
+    <td>There are no reservations to show right now.</td>
   </tr>
   {% endfor %}
 </table>
 <div class="add-btn-box">
 <a class="styled-btn" href="add">Add New Reservation</a>
 </div>
-            </div>
         </div>
     </div>
 </div>
