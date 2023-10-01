@@ -2,12 +2,19 @@
 
 {% block content %}
 
-<h1>Edit a Reservation:</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 p-4 text-center">
+<h1 class="page-heading">Edit Reservation</h1>
 <form method="POST">
   {% csrf_token %}
   {{ form }}
   <div>
-    <button type="submit">Update Reservation</button>
+    <button class="styled-btn" type="submit">Update Reservation</button>
   </div>
 </form>
+            </div>
+        </div>
+    </div>
+</div>
 {% endblock %}
