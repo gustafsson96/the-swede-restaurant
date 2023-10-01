@@ -2,18 +2,22 @@
 
 {% block content %}
 
+{% load crispy_forms_tags %}
+
 <div class="container">
     <div class="row">
         <div class="col-md-6 offset-md-3 p-4 text-center">
 <h1 class="page-heading-no-border">Make Reservation</h1>
 <div class="box-border">
+    {% if user.is_authenticated %}
 <form method="POST" action="add">
+    {{ form|crispy }}
     {% csrf_token %}
-    {{ form }}
     <div>
         <button class="styled-btn" type="submit">Make Reservation</button>
     </div>
 </form>
+    {% endif %}
             </div>
         </div>
     </div>

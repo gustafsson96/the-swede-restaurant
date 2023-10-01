@@ -12,10 +12,10 @@ class ReservationForm(forms.ModelForm):
                     'type': 'date', 'placeholder': 'yyyy-mm-dd'}
             )}
         labels = {
-            'name': ('Name '),
-            'date': ('Date '),
-            'time': ('Time '),
-            'number_of_guests': ('Number of Guests '),
+            'name': ('Name'),
+            'date': ('Date'),
+            'time': ('Time'),
+            'number_of_guests': ('Number of Guests'),
             'message': ('Special Requests or Allergy Information? Add here!'),
         }
 
