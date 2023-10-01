@@ -6,20 +6,32 @@
     <div class="row">
         <div class="col-md-6 offset-md-3 p-4 text-center">
             <h1 class="page-heading">My Reservations</h1>
-<table>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Name</th>
+            <th scope="col">Date</th>
+            <th scope="col">Time</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+        </tr>
+    </thead>
+    <tbody>
   {% for item in information %}
   <tr>
+    <td scope="row"></td>
     <td>{{ item.name }}</td>
     <td>{{ item.date }}</td>
     <td>{{ item.time }}</td>
     <td>
       <a href="/edit/{{ item.id }}">
-        <button class="edit-cancel-btn">Edit Reservation</button>
+        <button class="edit-cancel-btn">Edit</button>
       </a>
     </td>
     <td>
       <a href="/delete/{{ item.id }}">
-        <button class="edit-cancel-btn">Cancel Reservation</button>
+        <button class="edit-cancel-btn">Cancel</button>
       </a>
     </td>
   </tr>
@@ -28,6 +40,7 @@
     <td>There are no reservations to show right now.</td>
   </tr>
   {% endfor %}
+</tbody>
 </table>
 <div class="add-btn-box">
 <a class="styled-btn" href="add">Add New Reservation</a>
