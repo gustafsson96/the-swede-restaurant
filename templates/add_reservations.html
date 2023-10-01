@@ -1,11 +1,22 @@
-{% extends 'base.html' %} {% block content %}
+{% extends 'base.html' %}
+{% block content %}
 
-<h1>Make a Reservation:</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 p-4 text-center">
+<h1 class="page-heading-no-border">Make Reservation</h1>
+<div class="box-border">
 <form method="POST" action="add">
     {% csrf_token %}
     {{ form }}
     <div>
-        <button type="submit">Make Reservation</button>
+        <button class="styled-btn" type="submit">Make Reservation</button>
     </div>
 </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 {% endblock %}
