@@ -2,10 +2,11 @@
 
 {% block content %}
 
-<h1>Reservations!</h1>
-
-<p>Reservations:</p>
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 p-4 text-center">
+            <h1 class="page-heading">My Reservations</h1>
+            <div>
 <table>
   {% for item in information %}
   <tr>
@@ -14,12 +15,12 @@
     <td>{{ item.time }}</td>
     <td>
       <a href="/edit/{{ item.id }}">
-        <button>Edit Reservation</button>
+        <button class="edit-cancel-btn">Edit Reservation</button>
       </a>
     </td>
     <td>
       <a href="/delete/{{ item.id }}">
-        <button>Cancel Reservation</button>
+        <button class="edit-cancel-btn">Cancel Reservation</button>
       </a>
     </td>
   </tr>
@@ -29,7 +30,13 @@
   </tr>
   {% endfor %}
 </table>
+<div class="add-btn-box">
+<a class="styled-btn" href="add">Add New Reservation</a>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<a href="add">Add Reservation</a>
 
 {% endblock %}

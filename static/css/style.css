@@ -33,6 +33,25 @@
     padding: 2rem;
 }
 
+.styled-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 0.75rem 1.75rem;
+    background-color: var(--darker-yellow);
+    color: var(--darker-blue);
+    border: 2px solid var(--darker-blue);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+.styled-btn:hover {
+     background-color: var(--darker-blue);
+     color: var(--darker-yellow);
+ }
+
 /* relative page container for footer positioning */
 
 #page-container {
@@ -246,7 +265,8 @@
     color: var(--darker-yellow);
 }
 
-/* allauth login, signup, and logout templates css */
+/* allauth login, signup, and logout templates css 
+   buttons are .styled-btn but id was required to override original styling */
 
 #sign-up-link {
     text-decoration: none;
@@ -273,7 +293,6 @@
 }
 
 #signup-btn {
-/* repetetive code for buttons as id was required to override original styling */
     font-size: 1rem;
     font-weight: bold;
     text-decoration: none;
@@ -319,24 +338,27 @@
 
  /* add, view, edit, and delete reservations css */
 
-.styled-btn {
-    font-size: 1rem;
+ .edit-cancel-btn {
+    font-size: 0.6rem;
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
-    margin: 1rem;
-    padding: 0.75rem 1.75rem;
+    padding: 0.2rem;
+    margin: 0.2rem;
     background-color: var(--darker-yellow);
     color: var(--darker-blue);
     border: 2px solid var(--darker-blue);
     border-radius: 4px;
     transition-duration: 0.4s;
+ }
 
-}
-
- .styled-btn:hover {
+ .edit-cancel-btn:hover {
      background-color: var(--darker-blue);
      color: var(--darker-yellow);
+ }
+
+ .add-btn-box {
+    margin: 3rem;
  }
 
 
