@@ -14,7 +14,7 @@
 }
 
 #content-wrap {
-    padding-bottom: 2.5rem;
+    padding-bottom: 3.5rem;
 }
 
 /* navbar css */
@@ -169,11 +169,29 @@
 /* footer css */
 
 #footer {
+    text-align: center;
+    font-size: 1.5rem;
+    text-decoration: none;
     background-color: var(--lighter-blue);
     color: var(--darker-yellow);
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 3rem;
+    height: 3.5rem;
 }
 
+#footer a {
+    padding: 0 1rem;
+}
+
+.social-media:link {
+    color: var(--darker-yellow);
+}
+
+.social-media:visited {
+    color: var(--darker-yellow);
+}
+
+.social-media:hover {
+    color: var(--darker-blue);
+}
