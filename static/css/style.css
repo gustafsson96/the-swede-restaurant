@@ -18,6 +18,21 @@
     border-bottom: var(--darker-blue) solid 2px;
 }
 
+.page-heading-no-border {
+    font-family: 'Lora', sans-serif, Courier, monospace;
+    color: var(--darker-blue);
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.box-border {
+    border: var(--darker-blue) solid 2px;
+    padding: 2rem;
+}
+
 /* relative page container for footer positioning */
 
 #page-container {
@@ -227,6 +242,32 @@
 }
 
 .reservation-btn:hover {
+    background-color: var(--darker-blue);
+    color: var(--darker-yellow);
+}
+
+/* login.html css */
+
+#sign-up-link {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#login-btn {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 1rem;
+    padding: 0.75rem 1.75rem;
+    background-color: var(--darker-yellow);
+    color: var(--darker-blue);
+    border: 2px solid var(--darker-blue);
+    border-radius: 4px;
+    transition-duration: 0.4s;
+}
+
+#login-btn:hover {
     background-color: var(--darker-blue);
     color: var(--darker-yellow);
 }

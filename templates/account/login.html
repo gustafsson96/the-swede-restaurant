@@ -7,13 +7,13 @@
 
 {% block content %}
 
-<div class="m-3 border flex items-center justify-center px-4 py-12 my-4 sm:px-6 lg:px-8">
-    <div class="p-3 w-full max-w-md space-y-8">
-
-<h1 id="page-heading">{% trans "Sign In" %}</h1>
-
-<p>{% blocktrans %}If you have not created an account yet, then please
-<a href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3 p-4 text-center">
+<h1 class="page-heading-no-border">{% trans "Sign In" %}</h1>
+<div class="box-border">
+<p>{% blocktrans %}Not already a customer? Please
+<a id="sign-up-link"href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
 <form class="login" method="POST" action="{% url 'account_login' %}">
   {% csrf_token %}
@@ -21,11 +21,11 @@
   {% if redirect_field_value %}
   <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
   {% endif %}
-  <button class="primaryAction" type="submit">{% trans "Sign In" %}</button>
+  <button class="primaryAction" id="login-btn" type="submit">{% trans "Sign In" %}</button>
 </form>
-
+             </div>
+        </div>
+    </div>
 </div>
-</div>
-
 
 {% endblock %}
