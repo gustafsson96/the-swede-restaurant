@@ -21,6 +21,8 @@
   </head>
 
   <body>
+    <div id="page-container">
+        <div id="content-wrap">
     <!-- Bootstrap navbar copied from CI walkthrough templates. Customized for this project. -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" id="navbar">
     <div class="container-fluid">
@@ -74,13 +76,15 @@
 <main class="flex-shrink-0 main-bg">
 
     {% block content %}
-    <!--  Content Here -->
+    <!--  content here -->
     {% endblock content %}
 
-    <!-- Footer -->
-    <footer class="footer mt-auto py-3">
+    <!-- footer -->
+    <footer class="footer mt-auto py-3" id="footer">
         <p class="m-0 text-center"><i class="fab fa-facebook-square ms-3"></i>
             <i class="fab fa-instagram-square ms-3"></i>
     </footer>
+    </div>
+    </div>
   </body>
 </html>
