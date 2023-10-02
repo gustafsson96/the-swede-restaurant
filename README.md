@@ -1,11 +1,12 @@
-# Table of Content
+# The Swede Restaurant
 
+AmIResponsive Screenshot
 
-# User Experience
+## Table of Content
 
-### Problem Statement
+## Introduction
 
-### Project Goals
+## User Experience
 
 ### Epics and User Stories
 
@@ -40,10 +41,91 @@
 |  | #23 | Manage Reservation: As a registered user I can manage my reservation after its been saved in my account so that I can keep the restaurant updated if something changes.   |
 |  | #24 | Cancel Reservation: As a registered user I can cancel my reservation so that the date and time get available for other customers  |
 
+To ensure that the planning process of this project would be structured and lead to a well functioning application with relevant features, I based the planning on the five planes of UX: Strategy, Scope, Structure, Skeleton, and Surface. More information on each plane in relation to this project below.
 
-### Wireframes
+### _Strategy:_
 
-### Color Scheme
+#### Project goals
+
+* The goal is to build a website for a restaruant called "The Swede Restaurant" that serves traditional Sweidsh food. The site needs to include information necessary for a user to decide if they are interesed in visiting, and if they are, how and when to get there.
+
+* The most important feature of the website is the booking system and its functionality. Users should be able to easily make a reservation online and then view, edit, or/and cancel it if necessary.
+
+* The target audience is people who enjoy experiences revolving food and culture.
+
+#### Probable user expectations
+
+* Accessibility for all users.
+* Easy navigation throughout the site.
+* Relevant information - not too much and not too little.
+* A booking system that is similar to other online booking systems. Making a reservation should be easy.
+* A visually pleasing design without distractions.
+
+### _Scope_:
+
+#### Content requirements and functional specification
+
+* The most important features to include:
+  * A menu
+  * **A booking system** that meets the requirements for full CRUD funtionality. The booking system should include a calendar for date, a selection of availabe time slots, a section for number of guests, and the possibility to add a message for special requests.
+  * A page with the restaurants contact information. Would preferably contain a map of the restaurants location.
+  
+* The user should have to register to make a reservation and for this sections for authentication and registration have to be included.
+
+* The design should be responsive so that users can access and use the site on different devices/screen sizes. 
+
+### _Structure:_
+
+#### Pages
+
+The site consists of a total of 9 different pages (Pages marked with ** are displayed and look the same for both unregistered and registered users).
+
+##### Visible for unregistered users
+
+* Home Page**: Contains a hero image with text, in addition to buttons linking to different sections of the site.
+  
+* Menu Page**: Contains the menu and its items.
+  
+* Make Reservation Page: Displays a message saying that users have to be registered and logged in to make a reservation. Contains links to both sign in and sign up pages.
+  
+* Login Page: Contains a form prompting for the user's login information. Also contains a link for registration in case the user is not already a customer.
+  
+* Register Page: Contains a form where the user can choose a username and password to sign up, in addition to an optional email field. Also contains link to the login page in case the user is already a customer.
+  
+* Contact Page**: Contains contact information and opening hours. Same page for unregistered and registered users.
+
+
+##### Visible for registered users
+
+* Home Page**: Contains a hero image with text, in addition to buttons linking to different sections of the site. Same page for unregistered and registered users.
+  
+* Menu Page**: Contains the menu and its items. Same page for unregistered and registered users.
+  
+* Make Reservaton Page: Contains the form to make a reservation, prompting user input.
+  
+* My Reservations Page: Displays a table of data (reservations made) specific to the logged in user. Offers buttons with the options to edit or cancel the reservation, and an additional button linking to  the bookings form to make a new reservation. A message is displayed if there are no reservations to show.
+  
+* Contact Page**: Contains contact information and opening hours. Same page for unregistered and registered users.
+  
+* Logout Page: Contains a message asking if the user is sure they want to sign out and a button for signing out.
+
+#### Elements of navigation
+
+* A navigation bar with clearly displayed links to relevant content is visible at all times while exploring the site.
+  
+* The restaurant logo in the navigation bar is linked to the home page.
+  
+* A "make reservation" button is visible on different sections of the site, so that the way from deciding to visit the restaurant to actually making a reservation is as short as possible.
+
+* A map of the restaurants location should be available where it would be expected to be: the contact page. (Not implemented in this release due to time contraint.)
+
+### _Skeleton:_
+
+#### Wireframes
+
+### _Surface:_
+
+#### Color Scheme
 
 ![screenshot of color scheme](documentation/images/Colorscheme-screenshot.png)
 
@@ -51,11 +133,11 @@
 * The goal was to incorporate Swedish culture (the blue and yellow flag) through the colors of the site. The actual colors of the flag would have been too bright and sharp to include in the overall design, and I therefore customized the shades for improved User Experience.
 
 
-# Data Model
+## Data Model
 
-# The Use of Agile Methodology
+## The Use of Agile Methodology
 
-# Features
+## Features
 
 #### Registered User
 
@@ -65,19 +147,19 @@
 
 #### Features left to implement
 
-# Technologies
+## Technologies
 
 Languages, Packages, Frameworks, Libraries, Programs etc.
 
-# Testing
+## Testing
 
 Link to separate TESTING.md file. Brief information about what is in testing.md file.
 
-# Bugs
+## Bugs
 
 Present bugs, fixed and unfixed.
 
-# Deployment
+## Deployment
 
 Create the repository.
 Create the Django.
@@ -89,7 +171,7 @@ Final deployment after project is done.
 
 Section for forking?
 
-# Credits
+## Credits
 
 References to reused and customized code.
 
