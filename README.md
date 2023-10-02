@@ -1,3 +1,5 @@
+# Table of Content
+
 
 # User Experience
 
@@ -44,14 +46,24 @@
 ### Color Scheme
 
 ![screenshot of color scheme](documentation/images/Colorscheme-screenshot.png)
+
 * To create the color scheme for this project I used [Coolors](https://coolors.co/).
 * The goal was to incorporate Swedish culture (the blue and yellow flag) through the colors of the site. The actual colors of the flag would have been too bright and sharp to include in the overall design, and I therefore customized the shades for improved User Experience.
 
 
+# Data Model
+
+# The Use of Agile Methodology
+
 # Features
 
-Present all features with screenshots.
-Add features left to implement if necessary.
+#### Registered User
+
+#### Unregistered User
+
+#### CRUD features
+
+#### Features left to implement
 
 # Technologies
 
