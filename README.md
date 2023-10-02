@@ -78,7 +78,7 @@ To ensure that the planning process of this project would be structured and lead
 
 #### Pages
 
-The site consists of a total of 9 different pages (Pages marked with ** are displayed and look the same for both unregistered and registered users).
+The site consists of a total of 10 different pages (Pages marked with ** are displayed and look the same for both unregistered and registered users).
 
 ##### Visible for unregistered users
 
@@ -109,6 +109,10 @@ The site consists of a total of 9 different pages (Pages marked with ** are disp
   
 * Logout Page: Contains a message asking if the user is sure they want to sign out and a button for signing out.
 
+##### Additional pages
+
+* 404 Page - Contains "page not found" message and link back to home page.
+
 #### Elements of navigation
 
 * A navigation bar with clearly displayed links to relevant content is visible at all times while exploring the site.
@@ -123,14 +127,49 @@ The site consists of a total of 9 different pages (Pages marked with ** are disp
 
 #### Wireframes
 
+These wireframes were created using [Balsamiq](https://balsamiq.com/) in the early planning stages. 
+
+##### Home Page
+
+![Screenshot of home page wireframe for desktop](/documentation/images/Wireframe-HomePage-Desktop.png)
+
+![Screenshot of home page wireframe for desktop](/documentation/images/Wireframe-HomePage-Tablet.png)
+
+![Screenshot of home page wireframe for mobile](/documentation/images/Wireframe-HomePage-Mobile.png)
+
+##### Menu Page
+
+![Screenshot of menu wireframe](/documentation/images/Wireframe-Menu-AllDevices.png)
+
+##### Reservation Page 
+
+![Screenshot of reservation wireframe](/documentation/images/Wireframe-Reservation-Desktop.png)
+
+##### Contact Page 
+
+![Screenshot of contact wireframe desktop](/documentation/images/Wireframe-Contact-Desktop.png)
+
+These were the inital wireframes created. The end result of the site looks similar, yet there are some differences.
+
+Wireframes for authentication and registration were left out to save time, as the integrated Django-Allauth would be used to create the base for these templates and I was not sure how easy they would be to customize to fit the design of the rest of the site. However, the Allauth templates have now been customized and fit the overall design. In addition, Django-crispy forms was used for the reservation form, which was not an aspect I considered when creating the wireframes.
+
+With time I will update the wireframes according to the changes made.
+
 ### _Surface:_
 
 #### Color Scheme
 
 ![screenshot of color scheme](documentation/images/Colorscheme-screenshot.png)
 
-* To create the color scheme for this project I used [Coolors](https://coolors.co/).
-* The goal was to incorporate Swedish culture (the blue and yellow flag) through the colors of the site. The actual colors of the flag would have been too bright and sharp to include in the overall design, and I therefore customized the shades for improved User Experience.
+* To create the color scheme for this project I used **[Coolors](https://coolors.co/)**.
+  
+* The goal was to connect Sweden and the Swedish flag to the site by the blue and yellow color scheme. The actual colors of the flag would have been too bright and sharp to include in the overall design, and I therefore customized the shades for improved User Experience.
+  
+#### Fonts 
+
+![Screenshot of google fonts](/documentation/images/Screenshot-google-fonts.png)
+
+* I used **[this article](https://www.pagecloud.com/blog/best-google-fonts-pairings)** to decide what Google Fonts to pair.
 
 
 ## Data Model
