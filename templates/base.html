@@ -34,38 +34,38 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarText">
             <ul class="navbar-nav mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home</a>
+                    <a class="nav-link" aria-current="page" href="{% url 'home' %}">Home <i class="fa-solid fa-house"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'menu' %}">Menu</a>
+                    <a class="nav-link" href="{% url 'menu' %}">Menu <i class="fa-solid fa-utensils"></i></a>
                 </li>
                 {% if user.is_authenticated %}
                 <li class="nav-item">
                      <a class="nav-link" href="{% url 'add' %}">
-                        Make Reservation</a>
+                        Make Reservation <i class="fa-solid fa-calendar-plus"></i></a>
                     </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'reservations' %}">
-                        My Reservations</a>
+                        My Reservations <i class="fa-solid fa-calendar-days"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{% url 'contact' %}">Contact</a>
+                    <a class="nav-link" aria-current="page" href="{% url 'contact' %}">Contact <i class="fa-solid fa-phone"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
+                    <a class="nav-link" href="{% url 'account_logout' %}">Logout <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
                 </li>
                 {% else %}
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'reservation_login' %}">Make Reservation</a>
+                    <a class="nav-link" href="{% url 'reservation_login' %}">Make Reservation <i class="fa-solid fa-calendar-plus"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="{% url 'account_login' %}">Login</a>
+                    <a class="nav-link" href="{% url 'account_login' %}">Login <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
                 </li>
                 <li>
-                    <a class="nav-link" href="{% url 'account_signup' %}">Register</a>
+                    <a class="nav-link" href="{% url 'account_signup' %}">Register <i class="fa-solid fa-user-plus"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="{% url 'contact' %}">Contact</a>
+                    <a class="nav-link" aria-current="page" href="{% url 'contact' %}">Contact <i class="fa-solid fa-phone"></i></a>
                 </li>
                 {% endif %}
             </ul>
