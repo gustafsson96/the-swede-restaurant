@@ -157,15 +157,17 @@ Items were planned to stack on top of each other on smaller screens in addition 
 
 ##### Contact Page 
 
-Items were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
+Sections were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
 
 ![Screenshot of contact wireframe desktop](/documentation/images/Wireframe-Contact-Desktop.png)
 
-These were the inital wireframes created. The end result of the site looks similar to these wireframes, yet there are some differences.
+#### Some final words on wireframes
 
-Wireframes for authentication and registration were left out to save time, as the integrated Django-Allauth would be used to create the base for these templates and I was not sure how easy they would be to customize to fit the design of the rest of the site. However, the Allauth templates have now been customized and fit the overall design. In addition, Django-crispy forms was used for the reservation form, which was not an aspect I considered when creating the wireframes.
+* The screenshots presented above were the inital wireframes created. The end result of the site looks similar to these wireframes, yet there are some differences.
 
-With time I will update the wireframes according to the changes made.
+* Wireframes for authentication and registration were left out to save time, as the integrated Django-Allauth would be used to create the base for these templates and I was not sure how easy they would be to customize to fit the design of the rest of the site. However, the Allauth templates have now been customized and fit the overall design. In addition, Django-crispy forms was used for the reservation form, which was not an aspect I considered when creating the wireframes.
+
+* With time I will update the wireframes according to the changes made.
 
 ### _Surface:_
 
@@ -187,6 +189,41 @@ With time I will update the wireframes according to the changes made.
 ## Data Model
 
 ## The Use of Agile Methodology
+
+An agile approach was used for the development process of this project. By the use of a GitHub project including issues (user stories), milestones and MoSCoW labels I kept track of the progress. For future projects, I will also plan and document the development process in sprints, to get a better overview of the timeframe.
+
+The GitHub project can be viewed  **[here](https://github.com/users/gustafsson96/projects/6)**.
+
+
+##### User Stories 
+
+The user stories were created as GitHub issues. Each user story (with the exepction of a few labeled "won't have") has a few related acceptance criterias and tasks that were checked off continuously as the requirements were met.
+
+![List of user stories from GitHub project](/documentation/images/Agile-user-stories-list.png)
+
+##### Epics
+
+Epics were created as milestones. The user stories relevant for each epic were then linked to the milestones.
+
+An additional milestone to keep track of the project setup was also included.
+
+![Screenshot of milestone epics](/documentation/images/Agile-epics-milestones.png)
+
+##### MoSCoW Labels
+
+MoSCoW labels were created to prioritize the GitHub issues with user stories. An additional setup label for the intial setup steps was also included.
+
+![Screenshot of MoSCoW labels used](/documentation/images/Agile-moscow-labels.png)
+
+##### Todo Table in Project
+
+Items were moved between Todo, In Progress, and Done as the work progressed.
+
+![Screenshot of GitHub to do table in progress](/documentation/images/Agile-td-tablein-progress.png)
+
+This was the final view of the todo table. The items left in Todo are all labeled "won't have" for this release.
+
+![Screenshot of GitHub to do table final view](/documentation/images/Agile-tdtable-final-view.png)
 
 ## Features
 
