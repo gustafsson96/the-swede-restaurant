@@ -131,25 +131,37 @@ These wireframes were created using [Balsamiq](https://balsamiq.com/) in the ear
 
 ##### Home Page
 
+Desktop: 
+
 ![Screenshot of home page wireframe for desktop](/documentation/images/Wireframe-HomePage-Desktop.png)
 
+Tablet:
+
 ![Screenshot of home page wireframe for desktop](/documentation/images/Wireframe-HomePage-Tablet.png)
+
+Mobile:
 
 ![Screenshot of home page wireframe for mobile](/documentation/images/Wireframe-HomePage-Mobile.png)
 
 ##### Menu Page
 
+All devices (with the exception of the responsive navbar):
+
 ![Screenshot of menu wireframe](/documentation/images/Wireframe-Menu-AllDevices.png)
 
-##### Reservation Page 
+##### Reservation Page
+
+Items were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
 
 ![Screenshot of reservation wireframe](/documentation/images/Wireframe-Reservation-Desktop.png)
 
 ##### Contact Page 
 
+Items were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
+
 ![Screenshot of contact wireframe desktop](/documentation/images/Wireframe-Contact-Desktop.png)
 
-These were the inital wireframes created. The end result of the site looks similar, yet there are some differences.
+These were the inital wireframes created. The end result of the site looks similar to these wireframes, yet there are some differences.
 
 Wireframes for authentication and registration were left out to save time, as the integrated Django-Allauth would be used to create the base for these templates and I was not sure how easy they would be to customize to fit the design of the rest of the site. However, the Allauth templates have now been customized and fit the overall design. In addition, Django-crispy forms was used for the reservation form, which was not an aspect I considered when creating the wireframes.
 
