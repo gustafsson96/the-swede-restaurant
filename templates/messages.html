@@ -1,9 +1,0 @@
-<!-- Code from YouTube channel StudyGyaan: https://www.youtube.com/watch?v=VIx3HD2gRWQ -->
-
-{% if messages %}
-    {% for message in messages %}
-        <div class="alert alert-{{ message.tags }} m-2" id="msg" role="alert"> 
-            {{ message }}
-        </div>
-    {% endfor %}
-{% endif %}
