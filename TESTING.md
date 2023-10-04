@@ -125,6 +125,39 @@ To validate the Python code for this project, I used the **[CI Python Linter](ht
 
 </details>
 
+##### theswederestaurant project
+
+<details>
+<summary>asgi.py</summary>
+
+![screenshot of pep8 validation for asgi file](/documentation/testing/pep8-asgipy.png)
+
+</details>
+
+<details>
+<summary>settings.py</summary>
+
+![screenshot of pep8 validation for settings file](/documentation/testing/pep8-settingspy.png)
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+
+![screenshot of pep8 validation for urls file](/documentation/testing/pep8-urlspy-2.png)
+
+</details>
+
+<details>
+<summary>wsgi.py</summary>
+
+![screenshot of pep8 validation for wsgi file](/documentation/testing/pep8-wsgi.png)
+
+</details>
+
+
+
+
 ### JavaScript
 
 To validate the JavaScript code for this project, I used **[JSHint](https://jshint.com/)**. The JavaScript code only make up one function regarding how long messages are displayed on the screen. The results are presented below.
