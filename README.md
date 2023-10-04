@@ -227,11 +227,61 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 ## Features
 
-#### Registered User
+#### Home Page
 
-#### Unregistered User
+![screenshot of hero image](/documentation/images/landing-page-sh.png)
 
-#### CRUD features
+![screenshot of home page sections](/documentation/images/home-page-sections-sh.png)
+
+#### Menu Page
+
+![screenshot of menu page ](/documentation/images/menu-sh.png)
+
+#### Contact Page
+
+![screenshot of contact page](/documentation/images/contact-page-sh.png)
+
+### Unregistered User
+
+![screenshot of navbar unregistered user](/documentation/images/navbar-registered-sh.png)
+
+#### Make Reservation Page
+
+![screenshot of message for unregistered users](/documentation/images/make-reservation-unregistered-sh.png)
+
+#### Login Page
+
+![screenshot of login page](/documentation/images/signin-sh.png)
+
+#### Register Page
+
+![screenshot of signup page](/documentation/images/signup-sh.png)
+
+### Registered User
+
+![screenshot of navbar registered user](/documentation/images/navbar-registered-sh.png)
+
+#### Make Reservation Page
+
+![screenshot of form to make reservation](/documentation/images/make-reservation-form-sh.png)
+
+#### My Reservations Page (CRUD)
+
+![screenshot of an empty my reservations page](/documentation/images/my-reservations-empty-sh.png)
+
+![screenshot of my reservations page with booking](/documentation/images/my-reservations-sh.png)
+
+![screenshot of edit reservation page](/documentation/images/edit-reservation-sh.png)
+
+![screenshot of cancel reservation page](/documentation/images/alert-message4.png)
+
+#### Logout Page
+
+![screenshot of signout page](/documentation/images/signout-sh.png)
+
+#### Footer
+
+![screenshot of footer](/documentation/images/footer-sh.png)
 
 #### Features left to implement
 
