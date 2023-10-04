@@ -22,9 +22,15 @@
 <div class="container-fluid">
     <div class="row justify-content-center">
         <div id="box1" class="col-sm-12 col-md-4 m-auto p-5">
+            {% if user.is_authenticated %}
+            <a class="box-btn" href="{% url 'add' %}">
+            Reservations
+            </a>
+            {% else %}
             <a class="box-btn" href="{% url 'reservation_login' %}">
             Reservations
             </a>
+            {% endif %}
         </div>
         <div id="box2" class="col-sm-12 col-md-4 m-auto p-5">
             <a class="box-btn" href="{% url 'menu' %}">
