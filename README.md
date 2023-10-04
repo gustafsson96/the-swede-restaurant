@@ -47,7 +47,7 @@ To ensure that the planning process of this project would be structured and lead
 
 #### Project goals
 
-* The goal is to build a website for a restaruant called "The Swede Restaurant" that serves traditional Sweidsh food. The site needs to include information necessary for a user to decide if they are interesed in visiting, and if they are, how and when to get there.
+* The goal is to build a website for a restaruant called "The Swede Restaurant" that serves traditional Swedish food. The site needs to include information necessary for a user to decide if they are interesed in visiting, and if they are, how and when to get there.
 
 * The most important feature of the website is the booking system and its functionality. Users should be able to easily make a reservation online and then view, edit, or/and cancel it if necessary.
 
@@ -68,9 +68,9 @@ To ensure that the planning process of this project would be structured and lead
 * The most important features to include:
   * A menu
   * **A booking system** that meets the requirements for full CRUD funtionality. The booking system should include a calendar for date, a selection of availabe time slots, a section for number of guests, and the possibility to add a message for special requests.
-  * A page with the restaurants contact information. Would preferably contain a map of the restaurants location.
+  * A page with the restaurants contact information. Would preferably contain a map of the restaurant's location.
   
-* The user should have to register to make a reservation and for this sections for authentication and registration have to be included.
+* The user should have to register to make a reservation and for this to be possible, sections for authentication and registration have to be included.
 
 * The design should be responsive so that users can access and use the site on different devices/screen sizes. 
 
@@ -197,13 +197,13 @@ The GitHub project can be viewed  **[here](https://github.com/users/gustafsson96
 
 ##### User Stories 
 
-The user stories were created as GitHub issues. Each user story (with the exepction of a few labeled "won't have") has a few related acceptance criterias and tasks that were checked off continuously as the requirements were met.
+The user stories were created as GitHub issues. Each user story (with the exepction of a few labeled "won't have") contains related acceptance criterias and tasks that were checked off continuously as the requirements were met.
 
 ![List of user stories from GitHub project](/documentation/images/Agile-user-stories-list.png)
 
 ##### Epics
 
-Epics were created as milestones. The user stories relevant for each epic were then linked to the milestones.
+Epics were created as milestones. The user stories for each epic were then linked to the relevant milestone.
 
 An additional milestone to keep track of the project setup was also included.
 
@@ -211,7 +211,7 @@ An additional milestone to keep track of the project setup was also included.
 
 ##### MoSCoW Labels
 
-MoSCoW labels were created to prioritize the GitHub issues with user stories. An additional setup label for the intial setup steps was also included.
+MoSCoW labels were created to prioritize the GitHub issues with user stories. An additional setup label for the intial setup steps was also included. I also kept the default documentations label, but ended up not using it.
 
 ![Screenshot of MoSCoW labels used](/documentation/images/Agile-moscow-labels.png)
 
