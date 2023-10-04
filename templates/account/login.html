@@ -13,7 +13,7 @@
 <h1 class="page-heading-no-border">{% trans "Sign In" %}</h1>
 <div class="box-border">
 <p>{% blocktrans %}Not already a customer? Please
-<a id="sign-up-link"href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
+<a id="sign-up-link" href="{{ signup_url }}">sign up</a> first.{% endblocktrans %}</p>
 
 <form class="login" method="POST" action="{% url 'account_login' %}">
   {% csrf_token %}
