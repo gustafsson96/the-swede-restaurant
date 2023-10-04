@@ -4,7 +4,72 @@ Table of contents goes here.
 
 ## Code Validators 
 
-HTML, CSS, PEP8
+To validate the HTML code for all pages, I used the **[W3C Markup Validation Service](https://validator.w3.org)**. Where necessary, the code was validated by direct input. The results are presented below.
+
+<details>
+<summary>Home Page</summary>
+
+![html validation of home page](/documentation/testing/html-validator-home.png)
+
+</details>
+
+<details>
+<summary>Menu Page</summary>
+
+![html validation of menu page](/documentation/testing/html-validator-menu.png)
+
+</details>
+
+<details>
+<summary>Make Reservation (unregistered user) Page</summary>
+
+![html validation of make reservation page for unregistered users](/documentation/testing/html-validator-reservationlogin.png)
+
+</details>
+
+<details>
+<summary>Login Page</summary>
+
+![html validation of login page](/documentation/testing/html-validator-login.png)
+
+</details>
+
+<details>
+<summary>Signup Page</summary>
+
+![html validation of signup page](/documentation/testing/html-validator-signup.png)
+
+</details>
+
+<details>
+<summary>Make Reservation (registered user) Page</summary>
+
+![html validation of make reservation page for registered users](/documentation/testing/html-validator-add.png)
+
+</details>
+
+<details>
+<summary>My Reservations Page</summary>
+
+![html validation of my reservations page](/documentation/testing/html-validator-myreservations.png)
+
+</details>
+
+<details>
+<summary>Logout Page</summary>
+
+![html validation of logout page](/documentation/testing/html-validator-logout.png)
+
+</details>
+
+<details>
+<summary>Contact Page</summary>
+
+![html validation of home page](/documentation/testing/html-validator-contact.png)
+
+</details>
+
+ CSS, PEP8
 
 ## Lighthouse Performance
 
