@@ -1,6 +1,6 @@
 # The Swede Restaurant
 
-![Am I Responsive Screenshot]()
+![Am I Responsive Screenshot](/documentation/images/AmiResponsive.png)
 
 ## Table of Content
 
