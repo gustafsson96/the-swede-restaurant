@@ -10,5 +10,5 @@ urlpatterns = [
     path("delete/<item_id>", views.delete_reservation, name="delete"),
     path("menu", views.menu, name="menu"),
     path("contact", views.contact, name="contact"),
-    path("make_reservation", views.reservation_login, name="reservation_login"),
+    path("message", views.reservation_login, name="reservation_login"),
 ]
