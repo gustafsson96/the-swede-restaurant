@@ -283,6 +283,14 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 ![screenshot of footer](/documentation/images/footer-sh.png)
 
+#### Messages 
+
+![screenshot of alert message](/documentation/images/alert-message1.png)
+
+![screenshot of alert message](/documentation/images/alert-message2.png)
+
+![screenshot of alert message](/documentation/images/alert-message3.png)
+
 #### Features left to implement
 
 ## Technologies
