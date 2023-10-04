@@ -1,4 +1,5 @@
 from django.shortcuts import render, redirect, get_object_or_404
+from django.contrib import messages
 from .models import Booking
 from .forms import ReservationForm
 
@@ -29,6 +30,8 @@ def add_reservation(request):
         if form.is_valid():
             form.instance.user = request.user
             form.save()
+            messages.add_message(request, messages.SUCCESS,
+                                 'Your reservation has been created!')
             return redirect('reservations')
     form = ReservationForm()
     context = {
@@ -44,6 +47,8 @@ def edit_reservation(request, item_id):
         if form.is_valid():
             form.instance.user = request.user
             form.save()
+            messages.add_message(request, messages.SUCCESS,
+                                 'Your reservation was updated successfully!')
             return redirect('reservations')
     form = ReservationForm(instance=reservation)
     context = {
@@ -55,6 +60,8 @@ def edit_reservation(request, item_id):
 def delete_reservation(request, item_id):
     reservation = get_object_or_404(Booking, id=item_id)
     reservation.delete()
+    messages.add_message(request, messages.ERROR,
+                         'Your reservation has been cancelled.')
     return redirect('reservations')
 
 
