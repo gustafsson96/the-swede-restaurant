@@ -4,6 +4,8 @@ Table of contents goes here.
 
 ## Code Validators 
 
+### HTML
+
 To validate the HTML code for all pages, I used the **[W3C Markup Validation Service](https://validator.w3.org)**. Where necessary, the code was validated by direct input. The results are presented below.
 
 <details>
@@ -69,7 +71,13 @@ To validate the HTML code for all pages, I used the **[W3C Markup Validation Ser
 
 </details>
 
- CSS, PEP8
+### CSS
+
+To validate the CSS code for this project, I used the **[Jigsaw W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/)**. Results are presented below.
+
+![screenshot of css w3c validation](/documentation/testing/css-validation.png)
+
+PEP8
 
 ## Lighthouse Performance
 
@@ -104,11 +112,6 @@ Add checklist for manual testing and make it well structured.
 |  | #22 View Reservations: As a registered user I can view my reservation(s) so that I can check the details.   | ------------  | 
 |  | #23 Manage Reservation: As a registered user I can manage my reservation after its been saved in my account so that I can keep the restaurant updated if something changes.   | ------------  | 
 |  | #24 Cancel Reservation: As a registered user I can cancel my reservation so that the date and time get available for other customers  | ------------  |
-
-
-## Automated Testing
-
-Check if required for pass. If included, add screnshots from terminal.
 
 ## Additional Testing
 
