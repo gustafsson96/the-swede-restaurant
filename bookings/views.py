@@ -17,6 +17,9 @@ def reservation_login(request):
 
 
 def get_booking_information(request):
+    """
+    Show booking details specific to logged in user
+    """
     information = Booking.objects.filter(user=request.user)
     information_items = {
         'information': information
@@ -25,6 +28,9 @@ def get_booking_information(request):
 
 
 def add_reservation(request):
+    """
+    Create and validate a new reservation
+    """
     if request.method == 'POST':
         form = ReservationForm(request.POST)
         if form.is_valid():
@@ -41,6 +47,9 @@ def add_reservation(request):
 
 
 def edit_reservation(request, item_id):
+    """
+    Edit an existing reservation
+    """
     reservation = get_object_or_404(Booking, id=item_id)
     if request.method == 'POST':
         form = ReservationForm(request.POST, instance=reservation)
@@ -58,6 +67,9 @@ def edit_reservation(request, item_id):
 
 
 def delete_reservation(request, item_id):
+    """
+    Delete an existing reservation
+    """
     reservation = get_object_or_404(Booking, id=item_id)
     reservation.delete()
     messages.add_message(request, messages.ERROR,

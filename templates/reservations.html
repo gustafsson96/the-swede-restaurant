@@ -25,19 +25,15 @@
     <td>{{ item.date }}</td>
     <td>{{ item.time }}</td>
     <td>
-      <a href="/edit/{{ item.id }}">
-        <button class="edit-cancel-btn">Edit</button>
-      </a>
+        <a href="/edit/{{ item.id }}" class="edit-cancel-btn">Edit</a>
     </td>
     <td>
-      <a href="/delete/{{ item.id }}">
-        <button class="edit-cancel-btn">Cancel</button>
-      </a>
+        <a href="/delete/{{ item.id }}" class="edit-cancel-btn">Cancel</a>
     </td>
   </tr>
   {% empty %}
   <tr>
-    <td scope="row"></td>
+    <td></td>
     <td><strong>There are no reservations to show right now</strong></td>
     <td></td>
     <td><i class="fa-regular fa-face-smile"></i></td>
@@ -48,11 +44,10 @@
 </tbody>
 </table>
 <div class="add-btn-box">
-<a class="styled-btn" href="add">Add New Reservation</a>
+    <a class="styled-btn" href="add">Add New Reservation</a>
 </div>
-        </div>
     </div>
+  </div>
 </div>
-
 
 {% endblock %}

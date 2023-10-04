@@ -23,7 +23,9 @@ TIME_CHOICES = (
 
 
 class Booking(models.Model):
-    """create booking model"""
+    """
+    Model to create a new reservation
+    """
     user = models.ForeignKey(
         User, on_delete=models.CASCADE, related_name="reservation")
     name = models.CharField(max_length=50)
