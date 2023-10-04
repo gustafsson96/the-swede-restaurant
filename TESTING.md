@@ -81,6 +81,50 @@ To validate the CSS code for this project, I used the **[Jigsaw W3C CSS Validati
 
 To validate the Python code for this project, I used the **[CI Python Linter](https://pep8ci.herokuapp.com/)**. The results are presented below.
 
+##### The Bookings App
+
+<details>
+<summary>admin.py</summary>
+
+![screenshot of pep8 validation for admin file](/documentation/testing/pep8-adminpy.png)
+
+</details>
+
+<details>
+<summary>apps.py</summary>
+
+![screenshot of pep8 validation for app file](/documentation/testing/pep8-appspy.png)
+
+</details>
+
+<details>
+<summary>forms.py</summary>
+
+![screenshot of pep8 validation for forms file](/documentation/testing/pep8-formspy.png)
+
+</details>
+
+<details>
+<summary>models.py</summary>
+
+![screenshot of pep8 validation for models file](/documentation/testing/pep8-modelspy.png)
+
+</details>
+
+<details>
+<summary>urls.py</summary>
+
+![screenshot of pep8 validation for urls file](/documentation/testing/pep8-urlspy.png)
+
+</details>
+
+<details>
+<summary>views.py</summary>
+
+![screenshot of pep8 validation for views file](/documentation/testing/pep8-viewspy.png)
+
+</details>
+
 ### JavaScript
 
 To validate the JavaScript code for this project, I used **[JSHint](https://jshint.com/)**. The JavaScript code only make up one function regarding how long messages are displayed on the screen. The results are presented below.
