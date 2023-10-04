@@ -175,7 +175,7 @@
 
 /* home.html css for screens smaller than 769px */
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 802px) {
     .hero-text {
         font-size: 1.1rem;
     }
@@ -224,6 +224,25 @@
     .home-btn {
             display: none;
         }
+}
+
+/* home.html css for screens smaller than 350px */
+
+@media screen and (max-width: 350px) {
+    .hero-text {
+        opacity: 0.88;
+        padding: 0.2rem;
+        font-size: 0.6rem;
+    }
+
+    .hero-text h1 {
+        font-size: 1rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .home-btn {
+        display: none;
+    }
 }
 
 /* menu.html css */
