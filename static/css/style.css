@@ -154,6 +154,18 @@
     border: var(--lighter-yellow) 3px solid;
 }
 
+#box4 {
+    color: var(--darker-blue);
+    font-family: 'Lora', sans-serif, Courier, monospace; 
+    font-size: 1.2rem;
+}
+
+#box4-heading {
+    text-transform: uppercase;
+    border-bottom: var(--darker-blue) solid 2px;
+    margin-bottom: 1.5rem;
+}
+
 .box-btn {
     font-size: 1.1rem;
     font-weight: bolder;
@@ -212,7 +224,7 @@
 @media screen and (max-width: 620px) {
     .hero-text {
             opacity: 0.88;
-            padding: 0.2rem;
+            padding: 0.5rem;
             font-size: 0.8rem;
         }
     
@@ -223,7 +235,7 @@
 
     .home-btn {
             display: none;
-        }
+    }
 }
 
 /* home.html css for screens smaller than 350px */
@@ -242,6 +254,15 @@
 
     .home-btn {
         display: none;
+    }
+
+    #box4 {
+        font-size: 1.1rem;
+    }
+
+    #box4-heading {
+        font-size: 1.1rem;
+        margin-bottom: 1.1rem;
     }
 }
 

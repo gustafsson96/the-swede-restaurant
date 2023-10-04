@@ -1,6 +1,6 @@
 # The Swede Restaurant
 
-AmIResponsive Screenshot
+![Am I Responsive Screenshot]()
 
 ## Table of Content
 
