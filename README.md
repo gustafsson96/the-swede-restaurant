@@ -33,20 +33,23 @@
       - [MoSCoW Labels](#moscow-labels)
       - [Todo Table in Project](#todo-table-in-project)
   - [Features](#features)
+    - [For Both Unregistered and Registered Users](#for-both-unregistered-and-registered-users)
       - [Home Page](#home-page)
       - [Menu Page](#menu-page)
       - [Contact Page](#contact-page)
     - [Unregistered User](#unregistered-user)
+      - [Navigation Bar Unregistered User](#navigation-bar-unregistered-user)
       - [Make Reservation Page](#make-reservation-page)
       - [Login Page](#login-page)
       - [Register Page](#register-page)
     - [Registered User](#registered-user)
+      - [Navigation Bar Registered User](#navigation-bar-registered-user)
       - [Make Reservation Page](#make-reservation-page-1)
       - [My Reservations Page (CRUD)](#my-reservations-page-crud)
       - [Logout Page](#logout-page)
       - [Footer](#footer)
       - [Messages](#messages)
-      - [Features left to implement](#features-left-to-implement)
+    - [Features Left to Implement](#features-left-to-implement)
   - [Technologies](#technologies)
   - [Testing](#testing)
   - [Deployment](#deployment)
@@ -290,63 +293,116 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 ## Features
 
+### For Both Unregistered and Registered Users
+
 #### Home Page
 
+The landing page consists of a hero image and a textbox. The textbox contains the name of the restaurant, a short paragraph, 
+and a clickable button. The button links either to a page inviting the user to sign in/sign up if they are logged out/not already a customer, or to the "make a reservation form" if they are logged in. The button disappears on screens smaller than 620px to make the design cleaner, as the section below the hero image is more visible on smaller screens and therefore displays a button with the same links without the user having to scroll.
+
 ![screenshot of hero image](/documentation/images/landing-page-sh.png)
+
+Below the hero image is a section with three clickable buttons linking to different content of the site that 
+the user is likely to look for. These containers are stacked on top of each other on smaller screens. Below the buttons
+ is an inviting "Welcome to Us" text.
 
 ![screenshot of home page sections](/documentation/images/home-page-sections-sh.png)
 
 #### Menu Page
 
+The menu page contains a table with all menu items available at the restaurant, in addition to short descriptions and price.
+
 ![screenshot of menu page ](/documentation/images/menu-sh.png)
 
 #### Contact Page
+
+The contact page contains contact information and the opening hours of the restaurant. As there is not much 
+text on the screen, I decided to add a pattern in the relevant color scheme to make the page more interesting and 
+on the theme of the restaurant.
 
 ![screenshot of contact page](/documentation/images/contact-page-sh.png)
 
 ### Unregistered User
 
-![screenshot of navbar unregistered user](/documentation/images/navbar-registered-sh.png)
+#### Navigation Bar Unregistered User
+
+For an unregistered user, the navbar contains six items to the right (home, menu, make reservation, login, register, contact), in addition to the restaurant logo to the left. The items are accompanied by a relevant font awesome icon and they link to their associated page. The logo is linked to the home page. The navigation bar is fixed to the top at all times.
+
+![screenshot of navbar unregistered user](/documentation/images/navbar-unregistered-sh.png)
 
 #### Make Reservation Page
+
+The make reservation page for an unregistered user contains a message inviting the user to log in or sign up if they want to make a reservation. There are also two buttons linking to the login and the signup page.
 
 ![screenshot of message for unregistered users](/documentation/images/make-reservation-unregistered-sh.png)
 
 #### Login Page
 
+The login page contains a form where user input is required in the form of username and password in order to log in. There is also a link to the sign up page in case the user is not registered yet. 
+
 ![screenshot of login page](/documentation/images/signin-sh.png)
 
 #### Register Page
+
+The register page (the sign up page) is where the user can create an account. It contains a 
+form where user input is required in the form of username and password in order to sign up. Email is optional.
+There is also a link to the sign in page in case the user is already registered.
 
 ![screenshot of signup page](/documentation/images/signup-sh.png)
 
 ### Registered User
 
+#### Navigation Bar Registered User
+
+For a registered user, the navbar contains six items to the right (home, menu, make reservation, my reservations, contact, logout), in addition to the restaurant logo to the left. The items are accompanied by a relevant font awesome icon and they link to their associated page. The logo is linked to the home page. The navigation bar is fixed to the top at all times.
+
 ![screenshot of navbar registered user](/documentation/images/navbar-registered-sh.png)
 
 #### Make Reservation Page
+
+The make reservation page for a registered user is where a reservation can actually be made. It contains a form 
+where name, date, time, and number of guests is required. A message to the restaurant is optional.
 
 ![screenshot of form to make reservation](/documentation/images/make-reservation-form-sh.png)
 
 #### My Reservations Page (CRUD)
 
+* The my reservations page is where the user can view, edit, and cancel their reservations.
+This page is therefore responsible for most of the CRUD functionality of this application.
+* Name, date, and time are the booking details displayed.
+* If there are no reservations to view, a message is displayed.
+* If the user decides to add a message to their reservation, it will not show here to make this table less crowded and easier to read, but they still have the option to change or add a message if they click "edit".
+* There is also a button for making a new reservation.
+
 ![screenshot of an empty my reservations page](/documentation/images/my-reservations-empty-sh.png)
 
 ![screenshot of my reservations page with booking](/documentation/images/my-reservations-sh.png)
 
+The form to edit the reservation.
+
 ![screenshot of edit reservation page](/documentation/images/edit-reservation-sh.png)
+
+Message displayed if user cancels a reservation.
 
 ![screenshot of cancel reservation page](/documentation/images/alert-message4.png)
 
 #### Logout Page
 
+If the user clicks "logout" in the navigation bar, they will relocate to the logout page where they are 
+asked if they are sure they want to log out. If the answer is yes, they can click the button to log out.
+
 ![screenshot of signout page](/documentation/images/signout-sh.png)
 
 #### Footer
 
+The footer contains two social media links to Facebook and Instagram. It stays at the bottom of the screen for all pages.
+
 ![screenshot of footer](/documentation/images/footer-sh.png)
 
-#### Messages 
+#### Messages
+
+For user feedback, messages are displayed when actions are performed by the user. The messages disappear by themselves but can also be clicked by the user if they want them to disappear quicker.
+The messages below are only a few examples, there are more available.
 
 ![screenshot of alert message](/documentation/images/alert-message1.png)
 
@@ -354,7 +410,17 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 ![screenshot of alert message](/documentation/images/alert-message3.png)
 
-#### Features left to implement
+### Features Left to Implement
+
+* Home Page: Add more content and images to give the user a clearer first impression of the restaurant.
+
+* Contact page: a Google Map with the restaurants location pinned.
+  
+* Menu page: images of the food next to the menu items.
+  
+* Menu page: Make it possible to download the menu as a pdf.
+  
+* New Page: Make it possible for the user to leave a review.
 
 ## Technologies
 
