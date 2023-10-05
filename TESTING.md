@@ -9,8 +9,8 @@
   - [CSS](#css)
   - [Python](#python)
   - [JavaScript](#javascript)
-- [Lighthouse Report](#lighthouse-report)
 - [Accessibility](#accessibility)
+- [Lighthouse Report](#lighthouse-report)
 - [Manual Testing](#manual-testing)
 - [Additional Testing](#additional-testing)
 
@@ -174,9 +174,23 @@ To validate the JavaScript code for this project, I used **[JSHint](https://jshi
 
 ![screenshot of jshint validation](/documentation/testing/jshint-validation.png)
 
+## Accessibility
+
+I used the web accessibility evaluation tool **[WAVE](https://wave.webaim.org/report#/https://the-swede-restaurant-883dacef11e8.herokuapp.com/)** to test the accessibility of the site. The result is presented below.
+
+![screenshot of WAVE accessibility testing](/documentation/testing/wave-testing-screenshot.png)
+
 ## Lighthouse Report
 
-## Accessibility
+I ran two Lighthouse reports in Chrome DevTools, one for mobile and one for desktop, to test performance and additional testing of accessibility. The results are presented below.
+
+**Mobile**
+
+![screenshot of lighthouse report mobile](/documentation/testing/lighthouse-report-mobile-sh.png)
+
+**Desktop**
+
+![screenshot of lighthouse report desktop](/documentation/testing/lighthouse-report-device-sh.png)
 
 ## Manual Testing
 
