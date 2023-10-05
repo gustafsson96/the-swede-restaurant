@@ -1,19 +1,20 @@
-# Testing Section - The Swede Restaurant
+<h1>Testing Section - The Swede Restaurant</h1>
 
 <a id="table-of-contents"></a>
 ## Table of Contents
 
-- [Code Validators]()
-    * [HTML]()
-    * [CSS]()
-    * [Python]()
-    * [JavaScript]()
-- [Lighthouse Report]()
-- [Accessibility]()
-- [Browsers]()
-- [Manual Testing]()
-- [Additional Testing]()
+- [Table of Contents](#table-of-contents)
+- [Code Validators](#code-validators)
+  - [HTML](#html)
+  - [CSS](#css)
+  - [Python](#python)
+  - [JavaScript](#javascript)
+- [Lighthouse Report](#lighthouse-report)
+- [Accessibility](#accessibility)
+- [Manual Testing](#manual-testing)
+- [Additional Testing](#additional-testing)
 
+<a id="code-validators"></a>
 ## Code Validators 
 
 ### HTML
@@ -93,7 +94,7 @@ To validate the CSS code for this project, I used the **[Jigsaw W3C CSS Validati
 
 To validate the Python code for this project, I used the **[CI Python Linter](https://pep8ci.herokuapp.com/)**. The results are presented below.
 
-##### The Bookings App
+**The Bookings App**
 
 <details>
 <summary>admin.py</summary>
@@ -137,7 +138,7 @@ To validate the Python code for this project, I used the **[CI Python Linter](ht
 
 </details>
 
-##### theswederestaurant project
+**theswederestaurant Project**
 
 <details>
 <summary>asgi.py</summary>
