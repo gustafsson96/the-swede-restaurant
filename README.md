@@ -126,10 +126,11 @@ The site consists of a total of 10 different pages (Pages marked with ** are dis
 ### _Skeleton:_
 
 #### Wireframes
+These wireframes were created using [Balsamiq](https://balsamiq.com/) in the early planning stages.
 
-These wireframes were created using [Balsamiq](https://balsamiq.com/) in the early planning stages. 
+<details>
 
-##### Home Page
+<summary><strong>Home Page</strong></summary>
 
 Desktop: 
 
@@ -143,23 +144,37 @@ Mobile:
 
 ![Screenshot of home page wireframe for mobile](/documentation/images/Wireframe-HomePage-Mobile.png)
 
-##### Menu Page
+</details>
+
+<details>
+
+<summary><strong>Menu Page</strong></summary>
 
 All devices (with the exception of the responsive navbar):
 
 ![Screenshot of menu wireframe](/documentation/images/Wireframe-Menu-AllDevices.png)
 
-##### Reservation Page
+</details>
+
+<details>
+
+<summary><strong>Reservation Page</strong></summary>
 
 Items were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
 
 ![Screenshot of reservation wireframe](/documentation/images/Wireframe-Reservation-Desktop.png)
 
-##### Contact Page 
+</details>
+
+<details>
+
+<summary><strong>Contact Page</strong></summary>
 
 Sections were planned to stack on top of each other on smaller screens in addition to the responsive navbar.
 
 ![Screenshot of contact wireframe desktop](/documentation/images/Wireframe-Contact-Desktop.png)
+
+</details>
 
 #### Some final words on wireframes
 
