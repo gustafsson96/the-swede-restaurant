@@ -428,7 +428,10 @@ Languages, Packages, Frameworks, Libraries, Programs etc.
 
 ## Testing
 
-Link to separate TESTING.md file. Brief information about what is in testing.md file.
+Find the complete documentation for testing here: **[TESTING.md](/TESTING.md)**
+
+The testing documentation contains validation of HTML, CSS, Python, and JavaScript, Lighthouse Reports, accessibility testing,
+and manual testing.
 
 ## Deployment
 
