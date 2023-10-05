@@ -1,6 +1,18 @@
 # Testing Section - The Swede Restaurant
 
-Table of contents goes here.
+<a id="table-of-contents"></a>
+## Table of Contents
+
+- [Code Validators]()
+    * [HTML]()
+    * [CSS]()
+    * [Python]()
+    * [JavaScript]()
+- [Lighthouse Report]()
+- [Accessibility]()
+- [Browsers]()
+- [Manual Testing]()
+- [Additional Testing]()
 
 ## Code Validators 
 
@@ -155,16 +167,15 @@ To validate the Python code for this project, I used the **[CI Python Linter](ht
 
 </details>
 
-
-
-
 ### JavaScript
 
 To validate the JavaScript code for this project, I used **[JSHint](https://jshint.com/)**. The JavaScript code only make up one function regarding how long messages are displayed on the screen. The results are presented below.
 
 ![screenshot of jshint validation](/documentation/testing/jshint-validation.png)
 
-## Lighthouse Performance
+## Lighthouse Report
+
+## Accessibility
 
 ## Manual Testing
 

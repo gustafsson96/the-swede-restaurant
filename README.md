@@ -1,9 +1,8 @@
-<a id="the-swede-restaurant"></a>
 # The Swede Restaurant
 
 ![Am I Responsive Screenshot](/documentation/images/AmiResponsive.png)
 
-<a id="table-of-contents"></a>
+<a></a>
 ## Table of Contents
 - [The Swede Restaurant](#the-swede-restaurant)
   - [Table of Contents](#table-of-contents)
@@ -377,7 +376,6 @@ Final deployment after project is done.
 
 Section for forking?
 
-<a id="credits"></a>
 ## Credits
 
 References to reused and customized code.
