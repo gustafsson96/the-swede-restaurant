@@ -1,8 +1,57 @@
+<a id="the-swede-restaurant"></a>
 # The Swede Restaurant
 
 ![Am I Responsive Screenshot](/documentation/images/AmiResponsive.png)
 
-## Table of Content
+<a id="table-of-contents"></a>
+## Table of Contents
+- [The Swede Restaurant](#the-swede-restaurant)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction](#introduction)
+  - [User Experience](#user-experience)
+    - [Epics and User Stories](#epics-and-user-stories)
+    - [_Strategy:_](#strategy)
+      - [Project goals](#project-goals)
+      - [Probable user expectations](#probable-user-expectations)
+    - [_Scope_:](#scope)
+      - [Content requirements and functional specification](#content-requirements-and-functional-specification)
+    - [_Structure:_](#structure)
+      - [Pages](#pages)
+        - [Visible for unregistered users](#visible-for-unregistered-users)
+        - [Visible for registered users](#visible-for-registered-users)
+        - [Additional pages](#additional-pages)
+      - [Elements of navigation](#elements-of-navigation)
+    - [_Skeleton:_](#skeleton)
+      - [Wireframes](#wireframes)
+      - [Some final words on wireframes](#some-final-words-on-wireframes)
+    - [_Surface:_](#surface)
+      - [Color Scheme](#color-scheme)
+      - [Fonts](#fonts)
+  - [Data Model](#data-model)
+  - [The Use of Agile Methodology](#the-use-of-agile-methodology)
+      - [User Stories](#user-stories)
+      - [Epics](#epics)
+      - [MoSCoW Labels](#moscow-labels)
+      - [Todo Table in Project](#todo-table-in-project)
+  - [Features](#features)
+      - [Home Page](#home-page)
+      - [Menu Page](#menu-page)
+      - [Contact Page](#contact-page)
+    - [Unregistered User](#unregistered-user)
+      - [Make Reservation Page](#make-reservation-page)
+      - [Login Page](#login-page)
+      - [Register Page](#register-page)
+    - [Registered User](#registered-user)
+      - [Make Reservation Page](#make-reservation-page-1)
+      - [My Reservations Page (CRUD)](#my-reservations-page-crud)
+      - [Logout Page](#logout-page)
+      - [Footer](#footer)
+      - [Messages](#messages)
+      - [Features left to implement](#features-left-to-implement)
+  - [Technologies](#technologies)
+  - [Testing](#testing)
+  - [Deployment](#deployment)
+  - [Credits](#credits)
 
 ## Introduction
 
@@ -210,13 +259,13 @@ An agile approach was used for the development process of this project. By the u
 The GitHub project can be viewed  **[here](https://github.com/users/gustafsson96/projects/6)**.
 
 
-##### User Stories 
+#### User Stories 
 
 The user stories were created as GitHub issues. Each user story (with the exepction of a few labeled "won't have") contains related acceptance criterias and tasks that were checked off continuously as the requirements were met.
 
 ![List of user stories from GitHub project](/documentation/images/Agile-user-stories-list.png)
 
-##### Epics
+#### Epics
 
 Epics were created as milestones. The user stories for each epic were then linked to the relevant milestone.
 
@@ -224,13 +273,13 @@ An additional milestone to keep track of the project setup was also included.
 
 ![Screenshot of milestone epics](/documentation/images/Agile-epics-milestones.png)
 
-##### MoSCoW Labels
+#### MoSCoW Labels
 
 MoSCoW labels were created to prioritize the GitHub issues with user stories. An additional setup label for the intial setup steps was also included. I also kept the default documentations label, but ended up not using it.
 
 ![Screenshot of MoSCoW labels used](/documentation/images/Agile-moscow-labels.png)
 
-##### Todo Table in Project
+#### Todo Table in Project
 
 Items were moved between Todo, In Progress, and Done as the work progressed.
 
@@ -316,10 +365,6 @@ Languages, Packages, Frameworks, Libraries, Programs etc.
 
 Link to separate TESTING.md file. Brief information about what is in testing.md file.
 
-## Bugs
-
-Present bugs, fixed and unfixed.
-
 ## Deployment
 
 Create the repository.
@@ -332,6 +377,7 @@ Final deployment after project is done.
 
 Section for forking?
 
+<a id="credits"></a>
 ## Credits
 
 References to reused and customized code.
