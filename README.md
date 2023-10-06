@@ -463,6 +463,7 @@ and manual testing.
 * Library for Cloudinary: in the terminal, type: "pip3 install dj3-cloudinary-storage".
 * Make sure to create a requirements.txt file by using the command: "pip3 freeze --local > requirements.txt".
 * Create a django project and django app. Make sure to add the app to the projects settings.py file.
+* Create a Procfile and add in "web: gunicorn yourappname.wshi".
 
 <h4>Create the Heroku App</h4>
 
@@ -476,6 +477,7 @@ and manual testing.
 * Log in/Sign up to **[Cloudinary](https://cloudinary.com/)**.
 * Copy the API Environment variable on the dashboard. 
 * Add the copied variable to the env.py file.
+* Make sure cloudinary is linked to the app in settings.py.
 
 <h4>Create a Database (using ElephantSQL)</h4>
 
@@ -505,17 +507,34 @@ and manual testing.
 * Further down, change the SECRET_KEY variable by replacing the insecure Django key inside the quotation marks with "SECRET_KEY". This will reference the secret key created in the env.py file.
 * Scroll down to the database section and comment out the default DATABASES variable.
 * Instead, create a new DATABASES variable and give it the value " 'default': dj_database_url.parse(os.environ.get("DATABASE_URL")) " inside curly brackets.
-* Add "cloudinary" and "cloudinary_storage" to installed apps.
+* Add the Heroku host name to an ALLOWED_HOSTS variable.
 
 <h4>Deploy to Heroku</h4>
 
-* Go to the Heroku dashboard and click on the project. 
-* Make sure Confif Vars DATABASE_URL, SECRET_KEY, CLOUDINARY_URL and PORT are present.
-(Remember to set debug to FALSE and deploy manually).
+* Remember to set debug to FALSE in the apps settings.py file.
+* Go to the Heroku dashboard and click on the project.
+* Make sure Config Vars DATABASE_URL, SECRET_KEY, CLOUDINARY_URL and PORT are present.
+* Go to the "Deploy" section.
+* Select GitHub as deployment method and connect your account.
+* Search for your project's repository and click "Connect".
+* Scroll down to the bottom of the page, and by "Manual deploy", make sure "main" is selected in the dropdown menu, and click "Deploy Branch".
+* When the app has been deployed successfully, scroll to the top of the page and click "Open app" to view it.
 
-Forking
+<h4>Forking</h4>
 
-Cloning
+* Log in to GitHub and search for the reopsitory name and navigate to its main page.
+* Locate the "Fork" button and click it.
+* Add a description (optional).
+* Click the green "Create fork" button.
+
+<h4>Cloning</h4>
+
+* Log in to GitHub and search for the repository name and navigate to its main page.
+* Click the green "<> Code" button.
+* Copy the URL (if using HTTPS, SSH and GitHub CLI are also available options).
+* Open the terminal in your IDE and change the location to where you want the cloned repository.
+* Type "git clone" followed by the copied URL from the GitHub repo.
+* Press enter.
 
 ## Credits
 
