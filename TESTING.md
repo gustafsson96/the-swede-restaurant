@@ -262,6 +262,8 @@ I have tested that the application works in the following browsers:
 
 ## Unsolved Bugs
 
+* The "Add New Reservation" button (link) on the "My Reservations" page still gets cut in half on screen sizes around 900-1000px. This is not solved.
+
 * There is no restriction set so that the user cannot make a reservation for a past date. This is not solved.
 
 * There should be a "are you sure you want to cancel your reservation" alert with buttons when the cancel button is clicked on "my reservations" so that the user does not accidentally cancels their reservation . This is not solved.
