@@ -14,7 +14,6 @@
     - [_Structure:_](#structure)
     - [_Skeleton:_](#skeleton)
     - [_Surface:_](#surface)
-      - [Color Scheme](#color-scheme)
   - [Data Model](#data-model)
   - [The Use of Agile Methodology](#the-use-of-agile-methodology)
       - [User Stories](#user-stories)
@@ -218,7 +217,7 @@ Sections were planned to stack on top of each other on smaller screens in additi
 
 ### _Surface:_
 
-#### Color Scheme
+<h4>Color Scheme</h4>
 
 ![screenshot of color scheme](documentation/images/Colorscheme-screenshot.png)
 
@@ -402,6 +401,10 @@ The messages below are only a few examples, there are more available.
 ![screenshot of alert message](/documentation/images/alert-message2.png)
 
 ![screenshot of alert message](/documentation/images/alert-message3.png)
+
+<h4>Admin Panel</h4>
+
+There is also a Django admin panel where an admin can login and view/manage all reservations that have been created.
 
 ### Features Left to Implement
 
