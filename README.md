@@ -54,8 +54,14 @@
   - [Testing](#testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
+    - [Content](#content)
+    - [Media](#media)
 
 ## Introduction
+
+The Swede Restaurant is a website built for a fictional restaurant specializing in the Swedish cuisine. The user can sign up to make reservations online. They can also view, edit and/or cancel their reservations through their account. The goal was to create a website with a functionality that is similar to other online booking systems, while the design is very specific to the theme of the restaurant.
+
+*This project was created using HTML, CSS, JavaScript, Python, and Django, and is my 4th Portfolio Project for Code Institute's Diploma in Full Stack Software Development.*
 
 ## User Experience
 
@@ -538,9 +544,23 @@ and manual testing.
 
 ## Credits
 
-References to reused and customized code.
+### Content
 
-Important links and sources that have contributed to my understanding of the concepts required to create this project.
+* The Code Institute walkthrough projects "Hello Django" and "I Think Therefore I Blog" have been incredibly important for the creation of this project. They have been my main source of information for understanding and implementing all the different building blocks needed in order for the site to work. They were particularly important for set up and deployment.
 
-Content and media (pictures etc).
+* **[This YouTube video](https://www.youtube.com/watch?v=HHx3tTQWUx0)** by YouTube channel Codemy.com helped me understand the relationship especially between views and urls better. **[This video](https://www.youtube.com/watch?v=H3joYTIRqKk&t=136s)** from the same channel helped me understand how to output data from model to page better.
+
+* Reading **[this](https://docs.djangoproject.com/en/3.2/topics/forms/modelforms/#django.forms.ModelForm)** Django documentation helped me create the reservation form.
+
+* **[This](https://www.letscodemore.com/blog/how-to-add-date-input-widget-in-django-forms/)** article by Areeba Seher helped me add a date input widget to my Django form. 
+
+* I found the code for the CSS pattern for the contact page at **[superdesigner](https://superdesigner.co/tools/css-backgrounds)**.
+
+* I used **[this](https://studygyaan.com/django/django-custom-404-error-template-page?utm_content=cmp-true)** article by Manoj to create the 404 page.
+
+
+
+### Media
+
+* The hero image is from **[Pexels](https://www.pexels.com/)**.
 
