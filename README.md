@@ -10,22 +10,11 @@
   - [User Experience](#user-experience)
     - [Epics and User Stories](#epics-and-user-stories)
     - [_Strategy:_](#strategy)
-      - [Project goals](#project-goals)
-      - [Probable user expectations](#probable-user-expectations)
     - [_Scope_:](#scope)
-      - [Content requirements and functional specification](#content-requirements-and-functional-specification)
     - [_Structure:_](#structure)
-      - [Pages](#pages)
-        - [Visible for unregistered users](#visible-for-unregistered-users)
-        - [Visible for registered users](#visible-for-registered-users)
-        - [Additional pages](#additional-pages)
-      - [Elements of navigation](#elements-of-navigation)
     - [_Skeleton:_](#skeleton)
-      - [Wireframes](#wireframes)
-      - [Some final words on wireframes](#some-final-words-on-wireframes)
     - [_Surface:_](#surface)
       - [Color Scheme](#color-scheme)
-      - [Fonts](#fonts)
   - [Data Model](#data-model)
   - [The Use of Agile Methodology](#the-use-of-agile-methodology)
       - [User Stories](#user-stories)
@@ -34,23 +23,9 @@
       - [Todo Table in Project](#todo-table-in-project)
   - [Features](#features)
     - [For Both Unregistered and Registered Users](#for-both-unregistered-and-registered-users)
-      - [Home Page](#home-page)
-      - [Menu Page](#menu-page)
-      - [Contact Page](#contact-page)
     - [Unregistered User](#unregistered-user)
-      - [Navigation Bar Unregistered User](#navigation-bar-unregistered-user)
-      - [Make Reservation Page](#make-reservation-page)
-      - [Login Page](#login-page)
-      - [Register Page](#register-page)
     - [Registered User](#registered-user)
-      - [Navigation Bar Registered User](#navigation-bar-registered-user)
-      - [Make Reservation Page](#make-reservation-page-1)
-      - [My Reservations Page (CRUD)](#my-reservations-page-crud)
-      - [Logout Page](#logout-page)
-      - [Footer](#footer)
-      - [Messages](#messages)
     - [Features Left to Implement](#features-left-to-implement)
-  - [Technologies](#technologies)
   - [Testing](#testing)
   - [Deployment](#deployment)
   - [Credits](#credits)
@@ -102,7 +77,7 @@ To ensure that the planning process of this project would be structured and lead
 
 ### _Strategy:_
 
-#### Project goals
+<h4>Project goals</h4>
 
 * The goal is to build a website for a restaruant called "The Swede Restaurant" that serves traditional Swedish food. The site needs to include information necessary for a user to decide if they are interesed in visiting, and if they are, how and when to get there.
 
@@ -110,7 +85,7 @@ To ensure that the planning process of this project would be structured and lead
 
 * The target audience is people who enjoy experiences revolving food and culture.
 
-#### Probable user expectations
+<h4>Probable User Expectations</h4>
 
 * Accessibility for all users.
 * Easy navigation throughout the site.
@@ -120,7 +95,7 @@ To ensure that the planning process of this project would be structured and lead
 
 ### _Scope_:
 
-#### Content requirements and functional specification
+<h4>Content Requirements and Functional Specification</h4>
 
 * The most important features to include:
   * A menu
@@ -133,11 +108,11 @@ To ensure that the planning process of this project would be structured and lead
 
 ### _Structure:_
 
-#### Pages
+<h4>Pages</h4>
 
 The site consists of a total of 10 different pages (Pages marked with ** are displayed and look the same for both unregistered and registered users).
 
-##### Visible for unregistered users
+<h5>Visible For Unregistered Users</h5>
 
 * Home Page**: Contains a hero image with text, in addition to buttons linking to different sections of the site.
   
@@ -152,7 +127,7 @@ The site consists of a total of 10 different pages (Pages marked with ** are dis
 * Contact Page**: Contains contact information and opening hours. Same page for unregistered and registered users.
 
 
-##### Visible for registered users
+<h5>Visible For Registered Users</h5>
 
 * Home Page**: Contains a hero image with text, in addition to buttons linking to different sections of the site. Same page for unregistered and registered users.
   
@@ -166,11 +141,11 @@ The site consists of a total of 10 different pages (Pages marked with ** are dis
   
 * Logout Page: Contains a message asking if the user is sure they want to sign out and a button for signing out.
 
-##### Additional pages
+<h5>Additional Pages</h5>
 
 * 404 Page - Contains "page not found" message and link back to home page.
 
-#### Elements of navigation
+<h4>Elements of Navigation</h4>
 
 * A navigation bar with clearly displayed links to relevant content is visible at all times while exploring the site.
   
@@ -182,7 +157,7 @@ The site consists of a total of 10 different pages (Pages marked with ** are dis
 
 ### _Skeleton:_
 
-#### Wireframes
+<h4>Wireframes</h4>
 These wireframes were created using **[Balsamiq](https://balsamiq.com/)** in the early planning stages.
 
 <details>
@@ -233,7 +208,7 @@ Sections were planned to stack on top of each other on smaller screens in additi
 
 </details>
 
-#### Some final words on wireframes
+<h4>Some final words on wireframes</h4>
 
 * The screenshots presented above were the inital wireframes created. The end result of the site looks similar to these wireframes, yet there are some differences.
 
@@ -251,7 +226,7 @@ Sections were planned to stack on top of each other on smaller screens in additi
   
 * The goal was to connect Sweden and the Swedish flag to the site by the blue and yellow color scheme. The actual colors of the flag would have been too bright and sharp to include in the overall design, and I therefore customized the shades for improved User Experience.
   
-#### Fonts 
+<h4>Fonts</h4>
 
 ![Screenshot of google fonts](/documentation/images/Screenshot-google-fonts.png)
 
@@ -313,7 +288,7 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 ### For Both Unregistered and Registered Users
 
-#### Home Page
+<h4>Home Page</h4>
 
 The landing page consists of a hero image and a textbox. The textbox contains the name of the restaurant, a short paragraph, 
 and a clickable button. The button links either to a page inviting the user to sign in/sign up if they are logged out/not already a customer, or to the "make a reservation form" if they are logged in. The button disappears on screens smaller than 620px to make the design cleaner, as the section below the hero image is more visible on smaller screens and therefore displays a button with the same links without the user having to scroll.
@@ -326,13 +301,13 @@ the user is likely to look for. These containers are stacked on top of each othe
 
 ![screenshot of home page sections](/documentation/images/home-page-sections-sh.png)
 
-#### Menu Page
+<h4>Menu Page</h4>
 
 The menu page contains a table with all menu items available at the restaurant, in addition to short descriptions and price.
 
 ![screenshot of menu page ](/documentation/images/menu-sh.png)
 
-#### Contact Page
+<h4>Contact Page</h4>
 
 The contact page contains contact information and the opening hours of the restaurant. As there is not much 
 text on the screen, I decided to add a pattern in the relevant color scheme to make the page more interesting and 
@@ -342,25 +317,25 @@ on the theme of the restaurant.
 
 ### Unregistered User
 
-#### Navigation Bar Unregistered User
+<h4>Navigation Bar Unregistered User</h4>
 
 For an unregistered user, the navbar contains six items to the right (home, menu, make reservation, login, register, contact), in addition to the restaurant logo to the left. The items are accompanied by a relevant font awesome icon and they link to their associated page. The logo is linked to the home page. The navigation bar is fixed to the top at all times.
 
 ![screenshot of navbar unregistered user](/documentation/images/navbar-unregistered-sh.png)
 
-#### Make Reservation Page
+<h4>Make Reservation Page</h4>
 
 The make reservation page for an unregistered user contains a message inviting the user to log in or sign up if they want to make a reservation. There are also two buttons linking to the login and the signup page.
 
 ![screenshot of message for unregistered users](/documentation/images/make-reservation-unregistered-sh.png)
 
-#### Login Page
+<h4>Login Page</h4>
 
 The login page contains a form where user input is required in the form of username and password in order to log in. There is also a link to the sign up page in case the user is not registered yet. 
 
 ![screenshot of login page](/documentation/images/signin-sh.png)
 
-#### Register Page
+<h4>Register Page</h4>
 
 The register page (the sign up page) is where the user can create an account. It contains a 
 form where user input is required in the form of username and password in order to sign up. Email is optional.
@@ -370,20 +345,20 @@ There is also a link to the sign in page in case the user is already registered.
 
 ### Registered User
 
-#### Navigation Bar Registered User
+<h4>Navigation Bar Registered User</h4>
 
 For a registered user, the navbar contains six items to the right (home, menu, make reservation, my reservations, contact, logout), in addition to the restaurant logo to the left. The items are accompanied by a relevant font awesome icon and they link to their associated page. The logo is linked to the home page. The navigation bar is fixed to the top at all times.
 
 ![screenshot of navbar registered user](/documentation/images/navbar-registered-sh.png)
 
-#### Make Reservation Page
+<h4>Make Reservation Page</h4>
 
 The make reservation page for a registered user is where a reservation can actually be made. It contains a form 
 where name, date, time, and number of guests is required. A message to the restaurant is optional.
 
 ![screenshot of form to make reservation](/documentation/images/make-reservation-form-sh.png)
 
-#### My Reservations Page (CRUD)
+<h4>My Reservations Page (CRUD)</h4>
 
 * The my reservations page is where the user can view, edit, and cancel their reservations.
 This page is therefore responsible for most of the CRUD functionality of this application.
@@ -404,20 +379,20 @@ Message displayed if user cancels a reservation.
 
 ![screenshot of cancel reservation page](/documentation/images/alert-message4.png)
 
-#### Logout Page
+<h4>Logout Page</h4>
 
 If the user clicks "logout" in the navigation bar, they will relocate to the logout page where they are 
 asked if they are sure they want to log out. If the answer is yes, they can click the button to log out.
 
 ![screenshot of signout page](/documentation/images/signout-sh.png)
 
-#### Footer
+<h4>Footer</h4>
 
 The footer contains two social media links to Facebook and Instagram. It stays at the bottom of the screen for all pages.
 
 ![screenshot of footer](/documentation/images/footer-sh.png)
 
-#### Messages
+<h4>Messages</h4>
 
 For user feedback, messages are displayed when actions are performed by the user. The messages disappear by themselves but can also be clicked by the user if they want them to disappear quicker.
 The messages below are only a few examples, there are more available.
@@ -439,10 +414,6 @@ The messages below are only a few examples, there are more available.
 * Menu page: Make it possible to download the menu as a pdf.
   
 * New Page: Make it possible for the user to leave a review.
-
-## Technologies
-
-Languages, Packages, Frameworks, Libraries, Programs etc.
 
 ## Testing
 
@@ -558,9 +529,8 @@ and manual testing.
 
 * I used **[this](https://studygyaan.com/django/django-custom-404-error-template-page?utm_content=cmp-true)** article by Manoj to create the 404 page.
 
-
+* In addition to the more specific credits, **[the Django Documentation](https://docs.djangoproject.com/en/3.2/)**, **[Stack Overflow](https://stackoverflow.com/)**, and the CI community on Slack have guided me through a lot of problems along the way, and without a doubt deserve to be included here.
 
 ### Media
 
 * The hero image is from **[Pexels](https://www.pexels.com/)**.
-
