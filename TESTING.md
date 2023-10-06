@@ -17,6 +17,7 @@
 - [Additional Testing](#additional-testing)
 - [Browsers](#browsers)
 - [Bugs](#bugs)
+- [Unsolved Bugs](#unsolved-bugs)
 
 <a id="code-validators"></a>
 ## Code Validators 
@@ -235,16 +236,34 @@ The user stories/tests marked with "❌ Not implemented" are marked as "won't ha
 
 | TEST PASS | TEST |
 | -------- | -------- | 
-| ✅ | Links/buttons will take the user to its itended pages. |
-| ✅ | The different pages are responsive and work on different screen sizes. |
-| ✅ | The reservations shown on "my reservations" are specific to the logged in user. |
-| ✅ | A user that is not authenticated cannot show content for authenticated users. |
-| ✅ | The 404 page is displayed when the page does not exist. |
-| ✅ | User feedback displays in the form of messages after different actions. |
-| ✅ | The alert messages disappear by themselves. |
+| ✅ | Links/buttons will take the user to its itended pages |
+| ✅ | The social media links open in a new window |
+| ✅ | The different pages are responsive and work on different screen sizes |
+| ✅ | The reservations shown on "my reservations" are specific to the logged in user |
+| ✅ | A user that is not authenticated cannot show content for authenticated users |
+| ✅ | The 404 page is displayed when the page does not exist |
+| ✅ | User feedback displays in the form of messages after different actions |
+| ✅ | The alert messages disappear by themselves |
 
 ## Browsers
+I have tested that the application works in the following browsers:
+
+* Safari
+* Google Chrome
+* Mozilla Firefox
 
 ## Bugs
+
+* A few buttons (links styled as buttons) were cut in half on smaller screens. Fixed by adding media queries to the CSS file.
+
+* The "reservations" button on the home page linked to the "make reservation" page for unregistered users, no matter if the user was logged in or not. Fixed by adding if else statement to HTML code.
+
+* The footer would not stick to the bottom of the page without covering page content. Fixed by relative/absolute positioning (solution found in **[this](https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/)** article).
+
+## Unsolved Bugs
+
+* There is no restriction set so that the user cannot make a reservation for a past date. This is not solved.
+  
+* The time slots could look better for made reservations on smaller screens. This is not solved.
 
  Go back to the README documentation **[here](/README.md)**.
