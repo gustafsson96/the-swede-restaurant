@@ -195,12 +195,12 @@ I ran two Lighthouse reports in Chrome DevTools, one for mobile and one for desk
 ## Manual Testing
 
 An approach of Behavior Driven Development (BDD) was used for the manual testing to ensure the functionality,
-usability, responsiveness and data management of the project. BDD extends the already created user stories by translating them into a testable format. Each user story with its additional testable statement is presented in the table below, along with the test results.
+usability, responsiveness and data management of the project. BDD extends the already created user stories by translating them into a testable format. Each user story with its additional testable statement is presented in the table below, along with the test results.  ✅  ❌
 
 | TEST PASS | USER STORY | TEST |
 | ------------- | ------------  | ------------  |
 |  | #1 Navigation Bar: As a site user I can easily find the navigation bar so that I can navigate the different pages of the website. | Given that a user visits the site, when exploring different sections, then the navbar is visible on the top of the screen at all times.  |
-|  | #2 Logo Link: As a site user I can click the restaurant logo to get to the home page so that it is easy to navigate back if necessary.   | Given that a user visits the page, when the logo in the navbar is clicked, then the user will be relocated to the home page. | 
+| :green_circle: | #2 Logo Link: As a site user I can click the restaurant logo to get to the home page so that it is easy to navigate back if necessary.   | Given that a user visits the page, when the logo in the navbar is clicked, then the user will be relocated to the home page. |
 |  | #3 Find Menu: As a site user I can easily find the menu so that I can explore the food options.   | Given that a user visits the site, when they are looking for the menu, then they can find it in the navbar visible at all times. | 
 |  | #4 Find Reservation Form: As a site user I can easily find where to make a reservation so that I can schedule when to visit the restaurant.   | Given that a user visits the site, when they want to make a reservation, then they can find a link to making a reservation in the navbar visible at all times. |
 |  | #5 Find Contact Details: As a site user I can find the contact information to the restaurant so that I know how to contact them if needed.   | Given that a user visits the site, when they want to find the restaurants contact information, then they can find a link to the contact page in the navbar visible at all times. |
