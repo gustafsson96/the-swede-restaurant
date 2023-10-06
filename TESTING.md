@@ -1,5 +1,7 @@
 <h1>Testing Section - The Swede Restaurant</h1>
 
+ Go back to the README documentation **[here](/README.md)**.
+
 <a id="table-of-contents"></a>
 ## Table of Contents
 
@@ -13,6 +15,8 @@
 - [Lighthouse Report](#lighthouse-report)
 - [Manual Testing](#manual-testing)
 - [Additional Testing](#additional-testing)
+- [Browsers](#browsers)
+- [Bugs](#bugs)
 
 <a id="code-validators"></a>
 ## Code Validators 
@@ -195,7 +199,7 @@ I ran two Lighthouse reports in Chrome DevTools, one for mobile and one for desk
 ## Manual Testing
 
 An approach of Behavior Driven Development (BDD) was used for the manual testing to ensure the functionality,
-usability, responsiveness and data management of the project. BDD extends the already created user stories by translating them into a testable format. Each user story with its additional testable statement is presented in the table below, along with the test results.  ✅  ❌
+usability, responsiveness and data management of the project. BDD extends the already created user stories by translating them into a testable format. Each user story with its additional testable statement is presented in the table below, along with the test results.
 
 | TEST PASS | USER STORY | TEST |
 | ------------- | ------------  | ------------  |
@@ -224,6 +228,23 @@ usability, responsiveness and data management of the project. BDD extends the al
 | ✅  | #23 Manage Reservation: As a registered user I can manage my reservation after its been saved in my account so that I can keep the restaurant updated if something changes.   | Given that a user wants to update a reservation, when clicking the edit button, then the previously filled out form will show up and the user can change the information. |
 | ✅ | #24 Cancel Reservation: As a registered user I can cancel my reservation so that the date and time get available for other customers  | Given that a user wants to cancel a reservation, when the cancel button is clicked, then the reservation will be deleted from the table.  |
 
+The user stories/tests marked with "❌ Not implemented" are marked as "won't have" for this release in the GitHub project.
+
+
 ## Additional Testing
 
-Could also be a checklist. Make sure all features of the application are tested.
+| TEST PASS | TEST |
+| -------- | -------- | 
+| ✅ | Links/buttons will take the user to its itended pages. |
+| ✅ | The different pages are responsive and work on different screen sizes. |
+| ✅ | The reservations shown on "my reservations" are specific to the logged in user. |
+| ✅ | A user that is not authenticated cannot show content for authenticated users. |
+| ✅ | The 404 page is displayed when the page does not exist. |
+| ✅ | User feedback displays in the form of messages after different actions. |
+| ✅ | The alert messages disappear by themselves. |
+
+## Browsers
+
+## Bugs
+
+ Go back to the README documentation **[here](/README.md)**.
