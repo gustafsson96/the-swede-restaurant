@@ -254,6 +254,16 @@ Sections were planned to stack on top of each other on smaller screens in additi
 
 ## Data Model
 
+* To create the entity relationship diagram (ERD) for this project, I used **[creately](https://creately.com/lp/er-diagram-tool-online/)**.
+  
+* The Booking model was created by me to fit the needs of this project. It stores the reservations users make.
+  
+* The User model was provided by Django. More information about Django's default user model **[here](https://docs.djangoproject.com/en/3.2/ref/contrib/auth/)**.
+
+![screenshot of ERD diagram](/documentation/images/ERD-Diagram.png)
+
+In the future I would like to create a "reviews" model, that would allow the user to post reviews to the site.
+
 ## The Use of Agile Methodology
 
 An agile approach was used for the development process of this project. By the use of a GitHub project including issues (user stories), milestones and MoSCoW labels I kept track of the progress. For future projects, I will also plan and document the development process in sprints, to get a better overview of the timeframe.
