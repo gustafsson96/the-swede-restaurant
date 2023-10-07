@@ -1,5 +1,7 @@
 # The Swede Restaurant
 
+The live application can be found here: **[The Swede Restaurant](https://the-swede-restaurant-883dacef11e8.herokuapp.com/)**
+
 ![Am I Responsive Screenshot](/documentation/images/AmiResponsive.png)
 
 <a></a>
@@ -157,6 +159,7 @@ The site consists of a total of 10 different pages (Pages marked with ** are dis
 ### _Skeleton:_
 
 <h4>Wireframes</h4>
+
 These wireframes were created using **[Balsamiq](https://balsamiq.com/)** in the early planning stages.
 
 <details>
@@ -289,8 +292,9 @@ This was the final view of the todo table. The items left in Todo are all labele
 
 <h4>Home Page</h4>
 
-The landing page consists of a hero image and a textbox. The textbox contains the name of the restaurant, a short paragraph, 
-and a clickable button. The button links either to a page inviting the user to sign in/sign up if they are logged out/not already a customer, or to the "make a reservation form" if they are logged in. The button disappears on screens smaller than 620px to make the design cleaner, as the section below the hero image is more visible on smaller screens and therefore displays a button with the same links without the user having to scroll.
+* The landing page consists of a hero image and a textbox. The textbox contains the name of the restaurant, a short paragraph, and a clickable button.
+* The button links to a page inviting the user to sign in/sign up if they are logged out or not already a customer, and to the "make a reservation form" if they are logged in. 
+* The button disappears on screens smaller than 620px to make the design cleaner, as the section below the hero image is more visible on smaller screens and therefore displays a button with the same links without the user having to scroll.
 
 ![screenshot of hero image](/documentation/images/landing-page-sh.png)
 
@@ -353,7 +357,7 @@ For a registered user, the navbar contains six items to the right (home, menu, m
 <h4>Make Reservation Page</h4>
 
 The make reservation page for a registered user is where a reservation can actually be made. It contains a form 
-where name, date, time, and number of guests is required. A message to the restaurant is optional.
+where name, date, time, and number of guests are required to fill out. A message to the restaurant is optional.
 
 ![screenshot of form to make reservation](/documentation/images/make-reservation-form-sh.png)
 
@@ -491,7 +495,7 @@ and manual testing.
 
 <h4>Deploy to Heroku</h4>
 
-* Remember to set debug to FALSE in the apps settings.py file.
+* Remember to set debug to "False" in the apps settings.py file.
 * Go to the Heroku dashboard and click on the project.
 * Make sure Config Vars DATABASE_URL, SECRET_KEY, CLOUDINARY_URL and PORT are present.
 * Go to the "Deploy" section.
@@ -502,7 +506,7 @@ and manual testing.
 
 <h4>Forking</h4>
 
-* Log in to GitHub and search for the reopsitory name and navigate to its main page.
+* Log in to GitHub, search for the reopsitory name, and navigate to its main page.
 * Locate the "Fork" button and click it.
 * Add a description (optional).
 * Click the green "Create fork" button.
